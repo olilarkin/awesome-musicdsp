@@ -34,7 +34,7 @@ Slightly veering off topic, these are the software tools that I find useful in m
 - [Mathworks Matlab](https://www.mathworks.com/products/matlab.html) - Matlab is a great piece of software, even if open source alternatives such as Octave and Python + ... are equally capable. The audio systems toolbox allows you to build VST plug-ins directly from Matlab. Although it's buried deep in the application, you'll find that Matlab audio systems toolbox uses both WDL-OL and JUCE to provide its plug-in functionality.
 - [Cycling '74 Max](https://cycling74.com/) - Max is a great environment to use for prototyping audio plug-ins. There are just so many options for integrating different technologies, I highly recommend it - even if nowadays most of the max patches I make only include a few objects!
 
-# Places
+## Places
 Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of geeky stuff...
 
 - [musicdsp mailing list](http://sites.music.columbia.edu/cmc/music-dsp/) - The music DSP mailing list is pretty quiet these days, but it still worth signing up, despite the web 0-1 front page. Every now and again a music DSP legend posts something interesting. 

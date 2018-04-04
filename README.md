@@ -30,10 +30,18 @@ This is a small selection of books that have been helpful to me. There are many 
 ## Tools
 Slightly veering off topic, these are the software tools that I find useful in my audio programming. 
 
-- [Cockos Reaper](http://reaper.fm) - In my opinion Reaper is "the programmer's DAW". Whilst it might not be as immediate as some other DAWs, for anyone who wants to try anything experimental in terms of music technology, Reaper is a great place to do it. This is most obvious to me in the area of spatial audio. Reaper supports up to 64 channels per bus/track - that means you can do 7th order ambisonics in Reaper (since a long time ago). Protools and Nuendo have recently announced 3rd order Ambisonics support (16 channel buses).  7 > 3.
-Reaper includes its own scriptable assembly language "JS" (which stands for JesuSonic NOT JavaScript). This can really come in handy for quick custom plug-ins. It also has great metering and visualisation utility plug-ins written with JS.
+- [Cockos Reaper](http://reaper.fm) - In my opinion Reaper is "the programmer's DAW". Whilst it might not be as immediate as some other DAWs, for anyone who wants to try anything experimental in terms of music technology, Reaper is a great place to do it. This is most obvious to me in the area of spatial audio. Reaper supports up to 64 channels per bus/track - that means you can do 7th order ambisonics in Reaper (since a long time ago). Protools and Nuendo have recently announced 3rd order Ambisonics support (16 channel buses).  7 > 3 go figure. Reaper includes its own scriptable assembly language "JS" (which stands for JesuSonic NOT JavaScript). This can really come in handy for quick custom plug-ins. It also has great metering and visualisation utility plug-ins written with JS. Reaper has its own API so you can make plug-ins that integrate very closely with the DAW at a level that VST etc can't provide.
 - [Mathworks Matlab](https://www.mathworks.com/products/matlab.html) - Matlab is a great piece of software, even if open source alternatives such as Octave and Python + ... are equally capable. The audio systems toolbox allows you to build VST plug-ins directly from Matlab. Although it's buried deep in the application, you'll find that Matlab audio systems toolbox uses both WDL-OL and JUCE to provide its plug-in functionality.
 - [Cycling '74 Max](https://cycling74.com/) - Max is a great environment to use for prototyping audio plug-ins. There are just so many options for integrating different technologies, I highly recommend it - even if nowadays most of the max patches I make only include a few objects!
+
+# Places
+Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of geeky stuff...
+
+- [musicdsp mailing list](http://sites.music.columbia.edu/cmc/music-dsp/) - The music DSP mailing list is pretty quiet these days, but it still worth signing up, despite the web 0-1 front page. Every now and again a music DSP legend posts something interesting. 
+- [KvR Audio DSP and Plug-in Development Forum](https://www.kvraudio.com/forum/viewforum.php?f=33) - This is probably the most active forum for audio DSP that is not aligned with a particular plug-in framework. There are some very smart people, some mavericks and some plain weirdos who hang out here.
+- [JUCE Forums](https://forum.juce.com/) - This is a collection of forums centred around the variety of things that JUCE does. Since there is such a huge amount of people using JUCE to make audio software, there is a lot of good info here.
+- [Cockos Forums](https://forum.cockos.com) - Another collection of forums centred around Cockos' tools including one for WDL/iPlug and one for Reaper JS.
+- [The audio developer conference (ADC)](https://juce.com/adc) - Whilst the other places mentioned here are all virtual, this is a real conference where you can go and meet real people face-to-face who do audio programming - highly recommended! Having been to a lot of more academic conferences, I can say this one is well worth the cost of entry!
 
 ___
 

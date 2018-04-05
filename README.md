@@ -3,12 +3,14 @@ A curated list of my favourite music DSP and audio programming resources, focusi
 
 I like implementations that allow you to be creative quickly. The less code for the end user (e.g plug-in developer) the better!
 
-Whilst there is some crossover here (for instance JUCE includes DSP functionality), hopefully the grouping make sense...
+Whilst there is some crossover here (for instance JUCE includes DSP functionality, FAUST makes plug-ins), hopefully the grouping makes some kind of sense...
+
+I mainly develop on macOS and Windows so there's not much Linux-audio info here.
 
 Oli Larkin
 
 ## Frameworks
-- [JUCE](https://github.com/WeAreROLI/JUCE) - JUCE is an undeniably awesome C++ application framework with audio roots. It boasts a vast amount of functionality for the development of music software, including support for almost all plug-in formats and platforms. JUCE is used widely in the music technology industry and it has excellent documentation, code standards, functionality and support. The JUCE team at Roli organise the [Audio Developer's Conference (ADC)](https://juce.com/adc) which is the most awesome conference around if you like audio programming. What's more all the videos from the three ADCs so far are available [on youtube](https://www.youtube.com/channel/UCaF6fKdDrSmPDmiZcl9KLnQ/videos).
+- [JUCE](https://github.com/WeAreROLI/JUCE) - JUCE is an undeniably awesome C++ application framework with audio roots. It boasts a vast amount of functionality for the development of music software, including support for almost all plug-in formats and platforms. JUCE is used widely in the music technology industry and it has excellent documentation, code standards, features and support. The JUCE team at Roli organise the [Audio Developer's Conference (ADC)](https://juce.com/adc) which is the most awesome conference around if you like audio programming. What's more all the videos from the three ADCs so far are available [on youtube](https://www.youtube.com/channel/UCaF6fKdDrSmPDmiZcl9KLnQ/videos).
 - [WDL](https://github.com/justinfrankel/WDL) - WDL is Cockos' library of reusable C++ code, that is used to power the DAW Reaper, amongst other things. Whilst not traditionally a framework, there is so much good stuff in here, it is highly recommended - although there is next to no documentation, so it's not for the faint of heart. For more info about the various parts of WDL (which can be used independently), check [the Cockos site](https://www.cockos.com/wdl/)
 - [WDL-OL/iPlug](https://github.com/olilarkin/wdl-ol) - Not to blow my own physically modelled trumpet, so to speak, but iPlug (originally created by Cockos) is an awesome plug-in framework. I have been maintaining a fork of it since ~2011, which is probably the most widely used and maintained of all of the forks out there. iPlug's syntax is super simple, for example, creating a parameter or a control in the UI is only a single line of C++ code.
 - [VSTGUI](https://github.com/steinbergmedia/vstgui) - VSTGUI is Steinberg's cross-platform UI toolkit for audio plug-ins. It is released under a BSD licence, and although it's not my weapon of choice, it's an impressive piece of work and many plug-in developers use it for their products.
@@ -20,7 +22,7 @@ Oli Larkin
 - [HIIR](http://ldesoras.free.fr/prod.html) - HIIR is a seriously cool oversampling library by Laurent de Soras. Oversampling is something we often need in audio DSP, and this library handles it elegantly - providing a variety of classes for low latency IIR half band filtering (including SIMD optimizations). The original code (which was first released in 2005), is a little bit hard to get your head round, but fear not [here is](https://github.com/olilarkin/wdl-ol/tree/iplugquake/IPlug/Extras/HIIR) an updated version with [an example](https://github.com/olilarkin/wdl-ol/blob/iplugquake/IPlug/Extras/Oversampler.h) of how to use it inside an iPlug 2 plug-in.
 - [HOALibrary](https://github.com/CICM/HoaLibrary-Light) - As someone who works a lot with spatial audio, it's fantastic that the CICM have released this flexible DSP library for high order ambisonics (HOA) - a spatial audio platform that is becoming more and more relevant thanks to VR.
 
-## Books/Authors
+## Books/Authors/Conferences
 This is a small selection of books that have been helpful to me. There are many others that look absolutely great but I have not used them in anger (yet).
 
 - [Will Pirkle](http://www.willpirkle.com/) - Will Pirkle has written two books that will be invaluable the aspiring audio plug-in developer - "Designing Audio Effect Plug-Ins in C++" and "Designing Software Synthesizer Plug-Ins in C++". For more info [see here](http://www.willpirkle.com/about/books/])
@@ -30,11 +32,14 @@ This is a small selection of books that have been helpful to me. There are many 
 - [DAFX Conference Archive](http://www.dafx.de/) - All the papers from the DAFX conference are available online. Another great resource.
 
 ## Tools
-Slightly veering off topic, these are the software tools that I find useful in my audio programming. 
+Slightly veering off topic, these are the software tools that I find useful in my audio programming. Xcode 9 and Visual Studio 2017 are the free IDEs that I use, and both are very powerful these days.
 
 - [Cockos Reaper](http://reaper.fm) - In my opinion Reaper is "the programmer's DAW". Whilst it might not be as immediate as some other DAWs, for anyone who wants to try anything experimental in terms of music technology, Reaper is a great place to do it. This is most obvious to me in the area of spatial audio. Reaper supports up to 64 channels per bus/track - that means you can do 7th order ambisonics in Reaper (since a long time ago). Protools and Nuendo have recently announced 3rd order Ambisonics support (16 channel buses).  7 > 3 go figure. Reaper includes its own scriptable assembly language "JS" (which stands for JesuSonic NOT JavaScript). This can really come in handy for quick custom plug-ins. It also has great metering and visualisation utility plug-ins written with JS. Reaper has its own API so you can make plug-ins that integrate very closely with the DAW at a level that VST etc can't provide.
-- [Mathworks Matlab](https://www.mathworks.com/products/matlab.html) - Matlab is a great piece of software, even if open source alternatives such as Octave and Python + ... are equally capable. The audio systems toolbox allows you to build VST plug-ins directly from Matlab. Although it's buried deep in the application, you'll find that Matlab audio systems toolbox uses both WDL-OL and JUCE to provide its plug-in functionality.
+- [Mathworks Matlab](https://www.mathworks.com/products/matlab.html) - Matlab is a great piece of software, even if open source alternatives such as Octave and Python + ... are equally capable. The audio systems toolbox allows you to build VST plug-ins directly from Matlab. Although it's buried deep in the application, you'll find that Matlab audio systems toolbox uses both WDL-OL and JUCE to provide its plug-in functionality. Matlab also has great functionality for plotting curves and loads of other things. 
 - [Cycling '74 Max](https://cycling74.com/) - Max is a great environment to use for prototyping audio plug-ins. There are just so many options for integrating different technologies, I highly recommend it - even if nowadays most of the max patches I make only include a few objects!
+- [Desmos](https://www.desmos.com) - This is an awesome online graphing calculator. Check out some interactive Casio CZ waveforms that I made [saw](https://www.desmos.com/calculator/te4bzpvav3) [square](https://www.desmos.com/calculator/mclynvox0h) [reso1](https://www.desmos.com/calculator/6659cif7oa)
+- [Coliru](http://coliru.stacked-crooked.com/) - This is an online interactive C++ compiler, which can be a very nice and quick way to test out a particular feature of the language, without having to build a binary.
+- [Compiler Explorer](https://godbolt.org/) - Compiler explorer is a great tool for checking the assembly code that different compilers will produce.
 
 ## Places
 Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of geeky stuff...

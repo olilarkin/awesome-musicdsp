@@ -1,5 +1,5 @@
 # Awesome Music DSP [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-A curated list of my favourite music DSP and audio plug-in frameworks, focusing on the C++ programming language. 
+A curated list of my favourite music DSP and audio programming resources, focusing on the C++ programming language. 
 
 I like implementations that allow you to be creative quickly. The less code for the end user (e.g plug-in developer) the better!
 

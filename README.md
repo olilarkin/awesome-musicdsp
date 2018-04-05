@@ -30,6 +30,7 @@ This is a small selection of books that have been helpful to me. There are many 
 - [Udo Zölzer (Ed) - DAFX: Digital Audio Effects](https://books.google.co.uk/books/about/DAFX.html?id=DX-mRhkJL74C&source=kp_cover&redir_esc=y) - This is a great book on audio DSP, written by a variety of domain experts, and it includes Matlab code examples.
 - [JOS](https://ccrma.stanford.edu/~jos/) - Julius Smith's site and his four books are an amazing resource. Matlab and FAUST code examples included!
 - [DAFX Conference Archive](http://www.dafx.de/) - All the papers from the DAFX conference are available online. Another great resource.
+- [EarLevel Engineering](http://www.earlevel.com/) - Nigel Redmond's DSP blog contains some very nicely written explanations of a variety of topics.
 
 ## Tools
 Slightly veering off topic, these are the software tools that I find useful in my audio programming. Xcode 9 and Visual Studio 2017 are the free IDEs that I use, and both are very powerful these days.

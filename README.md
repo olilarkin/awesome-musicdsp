@@ -22,7 +22,7 @@ Oli Larkin
 - [HIIR](http://ldesoras.free.fr/prod.html) - HIIR is a seriously cool oversampling library by Laurent de Soras. Oversampling is something we often need in audio DSP, and this library handles it elegantly - providing a variety of classes for low latency IIR half band filtering (including SIMD optimizations). The original code (which was first released in 2005), is a little bit hard to get your head round, but fear not [here is](https://github.com/olilarkin/wdl-ol/tree/iplugquake/IPlug/Extras/HIIR) an updated version with [an example](https://github.com/olilarkin/wdl-ol/blob/iplugquake/IPlug/Extras/Oversampler.h) of how to use it inside an iPlug 2 plug-in.
 - [HOALibrary](https://github.com/CICM/HoaLibrary-Light) - As someone who works a lot with spatial audio, it's fantastic that the CICM have released this flexible DSP library for high order ambisonics (HOA) - a spatial audio platform that is becoming more and more relevant thanks to VR.
 
-## Books/Authors/Conferences
+## Reading
 This is a small selection of books that have been helpful to me. There are many others that look absolutely great but I have not used them in anger (yet).
 
 - [Will Pirkle](http://www.willpirkle.com/) - Will Pirkle has written two books that will be invaluable the aspiring audio plug-in developer - "Designing Audio Effect Plug-Ins in C++" and "Designing Software Synthesizer Plug-Ins in C++". For more info [see here](http://www.willpirkle.com/about/books/])
@@ -42,6 +42,15 @@ Slightly veering off topic, these are the software tools that I find useful in m
 - [Coliru](http://coliru.stacked-crooked.com/) - This is an online interactive C++ compiler, which can be a very nice and quick way to test out a particular feature of the language, without having to build a binary.
 - [Compiler Explorer](https://godbolt.org/) - Compiler explorer is a great tool for checking the assembly code that different compilers will produce.
 - [FAUST Editor](http://faust.grame.fr/editor/) - This is an online FAUST IDE and compiler, that lets you test FAUST code with webaudio. You can then tell it to output a zip file with a binary for your preferred platform. This saves you all the trouble of installing FAUST and its dependencies on your local machine.
+
+## Open source projects to work with or look at for "inspiration"
+I got into programming in C/C++ by making "objects" for Max and Synthedit. Learning how to use the SDKs for one of those or for one of the following open source packages is a nice way to start in my opinion, since you don't need to think about too many things. What's more - these great projects all show you how you can go about certain tasks... the code is there for you to look at. It might take you a while to find it, and sometimes the code might be hard to understand, but they all have oscillators, filters etc. There are many third party objects as well, that are also open source. Don't just copy stuff - you won't learn and you also probably violate the license, which is bad karma!
+
+- [puredata](http://msp.ucsd.edu/software.html) - I don't think this needs an introduction! Also check out libpd, which you can use as a DSP library in your C++ audio plug-in etc.
+- [supercollider](https://github.com/supercollider/supercollider) - Likewise, but make sure you look at the scsynth part for DSP stuff.
+- [csound](https://github.com/csound/csound) - CSound has seen a renaisannce of late and can be used as an embedable DSP library
+- [vcvrack](https://github.com/VCVRack/Rack) - Wow... i was seriously impressed when VCVRack was released earlier this year. Whilst the other items in this list have been around awhile and have somewhat arcane code-bases, this is pretty new and the API is very clean and simple. I think making a VCVRack module it is a great way to get into audio programming.
+- [mutable instruments](https://github.com/pichenettes/eurorack) - Olivier's Gillet's work is very inspiring. Although written for microcontrollers, there is so much to learn from here. And it's [ported to VCVRack](https://github.com/VCVRack/AudibleInstruments/tree/master/src) so you can try it on the desktop.
 
 ## Places
 Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of geeky stuff...

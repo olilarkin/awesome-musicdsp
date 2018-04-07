@@ -5,7 +5,7 @@ I like implementations that allow you to be creative quickly. The less code for 
 
 Whilst there is some crossover here (for instance JUCE includes DSP functionality, FAUST makes plug-ins), hopefully the grouping makes some kind of sense...
 
-**Caveat:** I am more of an "Audio Programmer" than I am a "DSP Engineer". Nevertheless I hope these resources are useful for people across the continuum of programmer <-> scientist with a passion for audio. 
+**Caveat:** I am more of an "Audio Programmer" than I am a "DSP Engineer". Nevertheless I hope these resources are useful for people with a passion for audio/music technology across the continuum of programmer <-> scientist. 
 
 Oli Larkin
 

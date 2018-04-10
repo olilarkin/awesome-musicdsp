@@ -5,13 +5,13 @@ I like implementations that allow you to be creative quickly. The less code for 
 
 Whilst there is some crossover here (for instance JUCE includes DSP functionality, FAUST makes plug-ins), hopefully the grouping makes some kind of sense...
 
-**Caveat:** I am more of an "Audio Programmer" than I am a "DSP Engineer". Nevertheless I hope these resources are useful for people with a passion for audio/music technology across the continuum of programmer <-> scientist. 
+**Caveat:** I am more of an "Audio Programmer" than I am a "DSP Engineer". Nevertheless I hope these resources are useful for people with a passion for audio/music technology from different backgrounds. 
 
 Oli Larkin
 
 ## Frameworks
 - [JUCE](https://github.com/WeAreROLI/JUCE) - JUCE is an undeniably awesome C++ application framework with audio roots. It boasts a vast amount of functionality for the development of music software, including support for almost all plug-in formats and platforms. JUCE is used widely in the music technology industry and it has excellent documentation, code standards, features and support. The JUCE team at Roli organise the [Audio Developer's Conference (ADC)](https://juce.com/adc) which is the most awesome conference around if you like audio programming. What's more all the videos from the three ADCs so far are available [on youtube](https://www.youtube.com/channel/UCaF6fKdDrSmPDmiZcl9KLnQ/videos).
-- [WDL](https://github.com/justinfrankel/WDL) - WDL is Cockos' library of reusable C++ code, that is used to power the DAW Reaper, amongst other things. Whilst not traditionally a framework, there is so much good stuff in here, it is highly recommended - although there is next to no documentation, so it's not for the faint of heart. For more info about the various parts of WDL (which can be used independently), check [the Cockos site](https://www.cockos.com/wdl/)
+- [WDL](https://github.com/justinfrankel/WDL) - WDL is Cockos' library of reusable C++ code, that is used to power the DAW Reaper, amongst other things. Whilst not traditionally a framework, there is so much good stuff in here, it is highly recommended - although there is next to no documentation, so it's not for the faint hearted. For more info about the various parts of WDL (which can be used independently), check [the Cockos site](https://www.cockos.com/wdl/)
 - [WDL-OL/iPlug](https://github.com/olilarkin/wdl-ol) - Not to blow my own physically modelled trumpet, so to speak, but iPlug (originally created by Cockos) is an awesome plug-in framework. I have been maintaining a fork of it since ~2011, which is probably the most widely used and maintained of all of the forks out there. iPlug's syntax is super simple, for example, creating a parameter or a control in the UI is only a single line of C++ code.
 - [VSTGUI](https://github.com/steinbergmedia/vstgui) - VSTGUI is Steinberg's cross-platform UI toolkit for audio plug-ins. It is released under a BSD licence, and although it's not my weapon of choice, it's an impressive piece of work and many plug-in developers use it for their products.
 
@@ -26,7 +26,7 @@ Oli Larkin
 This is a small selection of books that have been helpful to me. There are many others that look absolutely great but I have not used them in anger (yet).
 
 - [Will Pirkle](http://www.willpirkle.com/) - Will Pirkle has written two books that will be invaluable the aspiring audio plug-in developer - "Designing Audio Effect Plug-Ins in C++" and "Designing Software Synthesizer Plug-Ins in C++". For more info [see here](http://www.willpirkle.com/about/books/])
-- [Dodge and Jerse - Computer Music: Synthesis, Composition and Performance, 2nd Edition](https://books.google.co.uk/books/about/Computer_Music.html?id=eY_BQgAACAAJ&redir_esc=y) - This is my absolute favourite book to recommend to students studying computer music/audio synthesis. I find the book does not date like some other computer music texts. I find the MUSIC-N style diagrams charming and the techniques are discussed very well.
+- [Dodge and Jerse - Computer Music: Synthesis, Composition and Performance, 2nd Edition](https://books.google.co.uk/books/about/Computer_Music.html?id=eY_BQgAACAAJ&redir_esc=y) - This is my absolute favourite book to recommend to students studying computer music/audio synthesis. I find the book does not date like some other computer music texts. The MUSIC-N style block diagrams are charming and the techniques are discussed very well.
 - [Udo Zölzer (Ed) - DAFX: Digital Audio Effects](https://books.google.co.uk/books/about/DAFX.html?id=DX-mRhkJL74C&source=kp_cover&redir_esc=y) - This is a great book on audio DSP, written by a variety of domain experts, and it includes Matlab code examples.
 - [JOS](https://ccrma.stanford.edu/~jos/) - Julius Smith's site and his four books are an amazing resource. Matlab and FAUST code examples included!
 - [DAFX Conference Archive](http://www.dafx.de/) - All the papers from the DAFX conference are available online. Another great resource.
@@ -51,6 +51,12 @@ I got into programming in C/C++ by making objects for Max and Synthedit. Learnin
 - [csound](https://github.com/csound/csound) - CSound has seen a renaisannce of late and can be used as an embedable DSP library
 - [vcvrack](https://github.com/VCVRack/Rack) - Wow... i was seriously impressed when VCVRack was released earlier this year. Whilst the other items in this list have been around a while and have somewhat arcane code-bases, this is pretty new and the API is very clean and simple. I think making a VCVRack module it is a great way to get into audio programming.
 - [mutable instruments](https://github.com/pichenettes/eurorack) - Olivier's Gillet's work is very inspiring. Although written for microcontrollers, there is so much to learn from here. And it's [ported to VCVRack](https://github.com/VCVRack/AudibleInstruments/tree/master/src) so you can try it on the desktop.
+
+## Getting physical
+Most of the audio programming that I do has to do with plug-ins, but I found a couple of hardware platforms that I really like developing for (mainly because writing code for these devices is not so different to making a plug-in).
+
+- [the owl pedal/module](https://hoxtonowl.com/) - This is a programmable stomp box and eurorack module that I've been working with since the kick starter campaign to launch it. It's a really nice little unit, which you can program in C++, FAUST, Pd or with Max gen~. I find the limited interface with 4 controls makes me think quite carefully about what's important about my DSP algorithm. You can find some patches I made for it (using a mixture of c++ and FAUST) in the [user library](https://www.rebeltech.org/patch-library/patches/authors), and the original code [here](https://github.com/olilarkin/OL-OWLPatches).
+- [bela](https://bela.io/) - Bela is a wonderful little SoC + Audio Interface which is pretty revolutionary, allowing super low latency audio and sensor I/O all clocked together, in a tiny package. I wrote the FAUST support class for bela. You can also program it with C++ or libpd, and even supercollider.
 
 ## Places
 Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of geeky stuff...

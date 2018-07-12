@@ -32,6 +32,8 @@ This is a small selection of books that have been helpful to me. There are many 
 - [JOS](https://ccrma.stanford.edu/~jos/) - Julius Smith's site and his four books are an amazing resource. Matlab and FAUST code examples included!
 - [DAFX Conference Archive](http://www.dafx.de/) - All the papers from the DAFX conference are available online. Another great resource.
 - [EarLevel Engineering](http://www.earlevel.com/) - Nigel Redmond's DSP blog contains some very nicely written explanations of a variety of topics.
+- [Michael Tyson blog](http://atastypixel.com/blog/four-common-mistakes-in-audio-development/) - In depth article about Four common mistakes in audio development
+- [Ross Bencina's blog/site](http://www.rossbencina.com/) - Another Australian who writes a lot of interesting software and articles about lock free programming
 
 ## Tools
 Slightly veering off topic, these are the software tools that I find useful in my audio programming. Xcode 9 and Visual Studio 2017 are the free IDEs that I use, and both are very powerful these days.

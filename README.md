@@ -1,4 +1,5 @@
-# Awesome Music DSP [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# More Awesome Music DSP*
+
 A curated list of my favourite music DSP and audio programming resources, focusing on the C++ programming language. 
 
 I like implementations that allow you to be creative quickly. The less code for the end user (e.g plug-in developer) the better!
@@ -8,6 +9,8 @@ Whilst there is some crossover here (for instance JUCE includes DSP functionalit
 **Caveat:** I am more of an "Audio Programmer" than I am a "DSP Engineer". Nevertheless I hope these resources are useful for people with a passion for audio/music technology from different backgrounds. 
 
 Oli Larkin
+
+* This was originally meant to be an "Awesome list", but apparently you are not meant to write in the first person. I much prefer my way of doing it so this is now a "more awesome" list.
 
 ## Frameworks
 - [JUCE](https://github.com/WeAreROLI/JUCE) - JUCE is an undeniably awesome C++ application framework with audio roots. It boasts a vast amount of functionality for the development of music software, including support for almost all plug-in formats and platforms. JUCE is used widely in the music technology industry and it has excellent documentation, code standards, features and support. The JUCE team at Roli organise the [Audio Developer's Conference (ADC)](https://juce.com/adc) which is the most awesome conference around if you like audio programming. What's more all the videos from the three ADCs so far are available [on youtube](https://www.youtube.com/channel/UCaF6fKdDrSmPDmiZcl9KLnQ/videos).

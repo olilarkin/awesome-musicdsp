@@ -72,6 +72,7 @@ Here are a few links to the various corners of the internet and real-world where
 - [JUCE Forums](https://forum.juce.com/) - This is a collection of forums centred around the variety of things that JUCE does. Since there is such a huge amount of people using JUCE to make audio software, there is a lot of good info here.
 - [Cockos Forums](https://forum.cockos.com) - Another collection of forums centred around Cockos' tools including one for WDL/iPlug and one for Reaper JS.
 - [The audio developer conference (ADC)](https://juce.com/adc) - Whilst the other places mentioned here are all virtual, this is a real conference where you can go and meet real people face-to-face who do audio programming - highly recommended! Having been to a lot of more academic conferences, I can say this one is well worth the cost of entry!
+- [TheAudioProgrammer Discord server](https://www.youtube.com/watch?v=E3KOptgChdc) - A really friendly and supportive community to discuss and find help about audio programming. From beginners to experts, everybody is welcome regardless skills level.
 
 ___
 

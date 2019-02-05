@@ -8,14 +8,15 @@ Whilst there is some crossover here (for instance JUCE includes DSP functionalit
 
 Oli Larkin
 
-This was originally meant to be an "Awesome list", but apparently you are not meant to write in the first person. I much prefer my way of doing it so this is now a "more awesome" list.
+This was originally meant to be an "Awesome list", but apparently you are not meant to write in the first person. This is now a "more awesome" list.
 
 ## Frameworks
 - [iPlug2](https://github.com/iPlug2) - iPlug (originally created by Cockos) is an awesome plug-in framework. I have been maintaining a fork of it since ~2011 called [WDL-OL](https://github.com/olilarkin/wdl-ol). In 2018 I made a big effort to update it with the help of some other developers (in particular [Alex Harker](https://github.com/AlexHarker)). iPlug's syntax is super simple, for example, creating a parameter or a control in the UI is only a single line of C++ code.
-- [WDL](https://github.com/justinfrankel/WDL) - WDL is Cockos' library of reusable C++ code, that is used to power the DAW Reaper, amongst other things. Whilst not traditionally a framework, there is so much good stuff in here, it is highly recommended - although there is next to no documentation, so it's not for the faint hearted. For more info about the various parts of WDL (which can be used independently), check [the Cockos site](https://www.cockos.com/wdl/)
 - [JUCE](https://github.com/WeAreROLI/JUCE) - JUCE is an undeniably awesome C++ application framework with audio roots. It boasts a vast amount of functionality for the development of music software, including support for almost all plug-in formats and platforms. JUCE is used widely in the music technology industry and it has excellent documentation, code standards, features and support. The JUCE team at Roli organise the [Audio Developer's Conference (ADC)](https://juce.com/adc) which is the most awesome conference around if you like audio programming. What's more all the videos from the three ADCs so far are available [on youtube](https://www.youtube.com/channel/UCaF6fKdDrSmPDmiZcl9KLnQ/videos).
 - [VSTGUI](https://github.com/steinbergmedia/vstgui) - VSTGUI is Steinberg's cross-platform UI toolkit for audio plug-ins. It is released under a BSD licence, and although it's not my weapon of choice, it's an impressive piece of work and many plug-in developers use it for their products.
 - [AudioKit](http://audiokit.io/) - Well, i'm going to break the rules and include AudioKit here which uses the Swift programming language, because if you want to make apps for Apple's devices this is a great option, although if you want to do low level stuff, you will still have to delve into C/C++. It's a DSP and UI toolkit for audio things, so going in this category.
+- [WDL](https://github.com/justinfrankel/WDL) - WDL is Cockos' library of reusable C++ code, that is used to power the DAW Reaper, amongst other things. Whilst not traditionally a framework, there is so much good stuff in here, it is highly recommended - although there is next to no documentation, so it's not for the faint hearted. For more info about the various parts of WDL (which can be used independently), check [the Cockos site](https://www.cockos.com/wdl/)
+- [ASPiK](http://www.aspikplugins.com/) - This is a new framework from Will Pirkle which is based on the VST3 SDK and it's AU/AAX wrappers, along with VST GUI and its runtime UI editor. It includes a project creator and a lot of extra "nuts and bolts" code for plug-in development. 
 
 ## DSP Libraries
 
@@ -66,14 +67,14 @@ Most of the audio programming that I do has to do with plug-ins, but I found a c
 - [bela](https://bela.io/) - Bela is a wonderful little SoC + Audio Interface which is pretty revolutionary, allowing super low latency audio and sensor I/O all clocked together, in a tiny package. I wrote the FAUST support class for bela. You can also program it with C++ or libpd, and even supercollider.
 
 ## Places
-Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of geeky stuff...
+Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of stuff...
 
 - [musicdsp mailing list](http://sites.music.columbia.edu/cmc/music-dsp/) - The music DSP mailing list is pretty quiet these days, but it still worth signing up, despite the web 0-1 front page. Every now and again a music DSP legend posts something interesting. 
 - [KvR Audio DSP and Plug-in Development Forum](https://www.kvraudio.com/forum/viewforum.php?f=33) - This is probably the most active forum for audio DSP that is not aligned with a particular plug-in framework. There are some very smart people, some mavericks and some plain weirdos who hang out here.
 - [JUCE Forums](https://forum.juce.com/) - This is a collection of forums centred around the variety of things that JUCE does. Since there is such a huge amount of people using JUCE to make audio software, there is a lot of good info here.
 - [Cockos Forums](https://forum.cockos.com) - Another collection of forums centred around Cockos' tools including one for WDL/iPlug and one for Reaper JS.
 - [The audio developer conference (ADC)](https://juce.com/adc) - Whilst the other places mentioned here are all virtual, this is a real conference where you can go and meet real people face-to-face who do audio programming - highly recommended! Having been to a lot of more academic conferences, I can say this one is well worth the cost of entry!
-- [TheAudioProgrammer Discord server](https://www.youtube.com/watch?v=E3KOptgChdc) - A friendly and supportive community to discuss and find help about audio programming. From beginners to experts, everybody is welcome regardless of their skill level. Also check [TheAudioProgrammer Youtube channel](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A).
+- [TheAudioProgrammer Discord server](https://www.youtube.com/watch?v=E3KOptgChdc) - A popular community for discussing audio programming. Also check [TheAudioProgrammer Youtube channel](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A).
 
 ___
 

@@ -60,6 +60,13 @@ I got into programming in C/C++ by making objects for Max and Synthedit. Learnin
 - [zita stuff](http://kokkinizita.linuxaudio.org/linuxaudio/index.html) - Fons Adriaensen's linux audio projects offer a lot of great tools for acoustic measurements, spatial audio etc - mostly as jack apps.
 - [tracktion engine](https://github.com/Tracktion/tracktion_engine) - Source code for an entire DAW engine, using modern C++. An amazing resource for learning all sorts of things including how to structure and architect large audio projects. GPL/Commercial license.
 
+## Open source instruments/effects
+Here are some quality open source instruments/effects plug-in projects.
+- [helm](https://github.com/mtytel/helm)
+- [surge](https://github.com/surge-synthesizer/surge)
+- [obxd](https://github.com/2DaT/Obxd)
+- [dexed](https://github.com/asb2m10/dexed)
+
 ## Getting physical
 Most of the audio programming that I do has to do with plug-ins, but I found a couple of hardware platforms that I really like developing for (mainly because writing code for these devices is not so different to making a plug-in).
 

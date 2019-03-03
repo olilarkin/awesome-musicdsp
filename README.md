@@ -8,7 +8,7 @@ Whilst there is some crossover here (for instance JUCE includes DSP functionalit
 
 Oli Larkin
 
-This was originally meant to be an "Awesome list", but apparently you are not meant to write in the first person. This is now a "more awesome" list.
+This was originally meant to be an official "Awesome list", but apparently you are not meant to write in the first person. This is now a "more awesome" list.
 
 ## Frameworks
 - [iPlug2](https://github.com/iPlug2) - iPlug (originally created by Cockos) is an awesome plug-in framework. I have been maintaining a fork of it since ~2011 called [WDL-OL](https://github.com/olilarkin/wdl-ol). In 2018 I made a big effort to update it with the help of some other developers (in particular [Alex Harker](https://github.com/AlexHarker)). iPlug's syntax is super simple, for example, creating a parameter or a control in the UI is only a single line of C++ code.
@@ -60,6 +60,7 @@ I got into programming in C/C++ by making objects for Max and Synthedit. Learnin
 - [mutable instruments](https://github.com/pichenettes/eurorack) - Olivier's Gillet's work is very inspiring. Although written for microcontrollers, there is so much to learn from here. And it's [ported to VCVRack](https://github.com/VCVRack/AudibleInstruments/tree/master/src) so you can try it on the desktop.
 - [zita stuff](http://kokkinizita.linuxaudio.org/linuxaudio/index.html) - Fons Adriaensen's linux audio projects offer a lot of great tools for acoustic measurements, spatial audio etc - mostly as jack apps.
 - [tracktion engine](https://github.com/Tracktion/tracktion_engine) - Source code for an entire DAW engine, using modern C++. An amazing resource for learning all sorts of things including how to structure and architect large audio projects. GPL/Commercial license.
+- [musicdsp.org](https://www.musicdsp.org) - "A collection of algorithms, thoughts and snippets, gathered for the music dsp community". A long serving site that has recently been revamped. Beware: most of the code there was written a very long time ago, and optimization tricks etc, may not be relevant on modern machines. Also there are lots of code snippets programming languages other than C++ (delphi, java, C#  etc). Could do with some curation.
 
 ## Open source instruments/effects
 Here are some quality open source instruments/effects plug-in projects.

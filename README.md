@@ -16,7 +16,8 @@ This was originally meant to be an official "Awesome list", but apparently you a
 - [VSTGUI](https://github.com/steinbergmedia/vstgui) - VSTGUI is Steinberg's cross-platform UI toolkit for audio plug-ins. It is released under a BSD licence, and although it's not my weapon of choice, it's an impressive piece of work and many plug-in developers use it for their products.
 - [AudioKit](http://audiokit.io/) - Well, i'm going to break the rules and include AudioKit here which uses the Swift programming language, because if you want to make apps for Apple's devices this is a great option, although if you want to do low level stuff, you will still have to delve into C/C++. It's a DSP and UI toolkit for audio things, so going in this category.
 - [WDL](https://github.com/justinfrankel/WDL) - WDL is Cockos' library of reusable C++ code, that is used to power the DAW Reaper, amongst other things. Whilst not traditionally a framework, there is so much good stuff in here, it is highly recommended - although there is next to no documentation, so it's not for the faint hearted. For more info about the various parts of WDL (which can be used independently), check [the Cockos site](https://www.cockos.com/wdl/)
-- [ASPiK](http://www.aspikplugins.com/) - This is a new framework from Will Pirkle which is based on the VST3 SDK and it's AU/AAX wrappers, along with VST GUI and its runtime UI editor. It includes a project creator and a lot of extra "nuts and bolts" code for plug-in development. 
+- [ASPiK](http://www.aspikplugins.com/) - This is a new framework from Will Pirkle which is based on the VST3 SDK and it's AU/AAX wrappers, along with VST GUI and its runtime UI editor. It includes a project creator and a lot of extra "nuts and bolts" code for plug-in development.
+- [DPF](https://github.com/DISTRHO/DPF) - Distrho Plug-in Framework is a nice C++ plug-in framework by falkTX, supporting lots of Linux formats.
 
 ## DSP Libraries
 
@@ -64,16 +65,23 @@ I got into programming in C/C++ by making objects for Max and Synthedit. Learnin
 
 ## Open source instruments/effects
 Here are some quality open source instruments/effects plug-in projects.
-- [helm](https://github.com/mtytel/helm)
-- [surge](https://github.com/surge-synthesizer/surge)
-- [obxd](https://github.com/2DaT/Obxd)
-- [dexed](https://github.com/asb2m10/dexed)
+- [surge](https://github.com/surge-synthesizer/surge) - Surge was an excellent product from a very talented developer and it's recently been open sourced and updated to work with modern versions of VSTGUI.
+- [helm](https://github.com/mtytel/helm) - Helm is a comprehensive synth with a modern user interface written with JUCE, using OpenGL for visualisation widgets.
+- [obxd](https://github.com/2DaT/Obxd) - OBxd  is a great sounding oberheim emulation, written with JUCE. [DiscoDSP have updated it](https://github.com/reales/OB-Xd), and it has also been [ported to work on the web as a WebAudioModule](http://www.webaudiomodules.org/wamsynths/obxd)
+- [dexed](https://github.com/asb2m10/dexed) - Dexed is a JUCE frontend to [Raph Levien's "Music Synthesier For Android"](https://github.com/google/music-synthesizer-for-android), which is an excellent DX7 emulation. Also [ported to work on the web as a WebAudioModule] (http://www.webaudiomodules.org/wamsynths/dexed)
+- [AudioKit SynthOne](https://github.com/AudioKit/AudioKitSynthOne) - SynthOne is a great open source project built using Audiokit,  that will be very interesting to anyone looking to build an iOS synthesiser.
 
 ## Getting physical
 Most of the audio programming that I do has to do with plug-ins, but I found a couple of hardware platforms that I really like developing for (mainly because writing code for these devices is not so different to making a plug-in).
 
 - [the owl pedal/module](https://hoxtonowl.com/) - This is a programmable stomp box and eurorack module that I've been working with since the kick starter campaign to launch it. It's a really nice little unit, which you can program in C++, FAUST, Pd or with Max gen~. I find the limited interface with 4 controls makes me think quite carefully about what's important about my DSP algorithm. You can find some patches I made for it (using a mixture of c++ and FAUST) in the [user library](https://www.rebeltech.org/patch-library/patches/authors), and the original code [here](https://github.com/olilarkin/OL-OWLPatches).
 - [bela](https://bela.io/) - Bela is a wonderful little SoC + Audio Interface which is pretty revolutionary, allowing super low latency audio and sensor I/O all clocked together, in a tiny package. I wrote the FAUST support class for bela. You can also program it with C++ or libpd, and even supercollider.
+
+## Youtubers
+
+- [TheAudioProgrammer](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A) - includes a lot of tutorials about JUCE  with guest slots on things like web audio.
+
+- [TheChernoProject](https://www.youtube.com/user/TheChernoProject) - although this channel is focused on game development, the C++ series is excellent. Annoying hand gestures, but an amazing energy and passion for teaching. Highly recommended.
 
 ## Places
 Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of stuff...
@@ -83,7 +91,7 @@ Here are a few links to the various corners of the internet and real-world where
 - [JUCE Forums](https://forum.juce.com/) - This is a collection of forums centred around the variety of things that JUCE does. Since there is such a huge amount of people using JUCE to make audio software, there is a lot of good info here.
 - [Cockos Forums](https://forum.cockos.com) - Another collection of forums centred around Cockos' tools including one for WDL/iPlug and one for Reaper JS.
 - [The audio developer conference (ADC)](https://juce.com/adc) - Whilst the other places mentioned here are all virtual, this is a real conference where you can go and meet real people face-to-face who do audio programming - highly recommended! Having been to a lot of more academic conferences, I can say this one is well worth the cost of entry!
-- [TheAudioProgrammer Discord server](https://www.youtube.com/watch?v=E3KOptgChdc) - A popular community for discussing audio programming. Also check [TheAudioProgrammer Youtube channel](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A).
+- [TheAudioProgrammer Discord server](https://www.youtube.com/watch?v=E3KOptgChdc) - A popular community for discussing audio programming.
 
 ___
 

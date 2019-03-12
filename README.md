@@ -81,7 +81,7 @@ Most of the audio programming that I do has to do with plug-ins, but I found a c
 
 - [TheAudioProgrammer](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A) - includes a lot of tutorials about JUCE  with guest slots on things like web audio.
 
-- [TheChernoProject](https://www.youtube.com/user/TheChernoProject) - although this channel is focused on game development, the C++ series is excellent. Annoying hand gestures, but an amazing energy and passion for teaching. Highly recommended.
+- [TheChernoProject](https://www.youtube.com/user/TheChernoProject) - although this channel is focused on game development, the [C++ series](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) is excellent. Annoying hand gestures, but an amazing energy and passion for teaching. Highly recommended.
 
 ## Places
 Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of stuff...

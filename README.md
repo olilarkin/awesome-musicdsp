@@ -50,6 +50,7 @@ Slightly veering off topic, these are the software tools that I find useful in m
 - [FAUST Editor](http://faust.grame.fr/editor/) - This is an online FAUST IDE and compiler, that lets you test FAUST code with webaudio. You can then tell it to output a zip file with a binary for your preferred platform. This saves you all the trouble of installing FAUST and its dependencies on your local machine.
 - [Matplotlib-cpp](https://github.com/lava/matplotlib-cpp) - A C++ interface to the matplotlib python plotting tool. Allows you to visualize algorithms using the same code that you can use in production.
 - [xeus-cling](https://mybinder.org/v2/gh/QuantStack/xeus-cling/stable?filepath=notebooks/xcpp.ipynb) - C++ in jupyter notebooks.
+- [soul online compiler](https://soul.dev/playground/) - Very exciting project from Roli - a new sound programming language that you can play with now in the browser.
 
 ## Open source projects to work with or look at for "inspiration"
 I got into programming in C/C++ by making objects for Max and Synthedit. Learning how to use the SDKs for one of those or for one of the following open source packages is a nice way to start in my opinion, since you don't need to think about too many things. What's more - these great projects all show you how you can go about certain tasks... the code is there for you to look at. It might take you a while to find it, and sometimes the code might be hard to understand, but they all have oscillators, filters etc. There are many third party objects as well, that are also open source. Don't just copy stuff - you won't learn and you also probably violate the license, which is bad karma!
@@ -70,6 +71,7 @@ Here are some quality open source instruments/effects plug-in projects.
 - [obxd](https://github.com/2DaT/Obxd) - OBxd  is a great sounding oberheim emulation, written with JUCE. [DiscoDSP have updated it](https://github.com/reales/OB-Xd), and it has also been [ported to work on the web as a WebAudioModule](http://www.webaudiomodules.org/wamsynths/obxd)
 - [dexed](https://github.com/asb2m10/dexed) - Dexed is a JUCE frontend to [Raph Levien's "Music Synthesier For Android"](https://github.com/google/music-synthesizer-for-android), which is an excellent DX7 emulation. Also [ported to work on the web as a WebAudioModule](http://www.webaudiomodules.org/wamsynths/dexed)
 - [AudioKit SynthOne](https://github.com/AudioKit/AudioKitSynthOne) - SynthOne is a great open source project built using Audiokit,  that will be very interesting to anyone looking to build an iOS synthesiser.
+- [AirWindows Plugins](https://github.com/airwindows/airwindows) - A large collection of GUI-less plug-ins open source but supported via patreon [see airwindows site](http://www.airwindows.com/)
 
 ## Getting physical
 Most of the audio programming that I do has to do with plug-ins, but I found a couple of hardware platforms that I really like developing for (mainly because writing code for these devices is not so different to making a plug-in).

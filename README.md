@@ -4,12 +4,10 @@ This is a curated list of my favourite music DSP and audio programming resources
 
 Oli Larkin
 
-**************** COMMERCIAL BREAK **************** 
+### COMMERCIAL BREAK 
 Are you interested in getting into Audio Programming in C++ but don't know where to start? Maybe you know some Max MSP or Reaktor and you'd like to take your ideas to the next level and produce professional quality plug-ins and apps?
 I have been doing one-to-one skype lessons with people of all levels of experience for many years, as well as teaching audio programming at several UK Universities. I've developed many projects over the years using both JUCE and iPlug, and I've collaborated with well-known companies on software used by thousands of people. 
 If you'd like some coaching to help you make progress on your audio programming projects, please get in touch via email (See olilarkin.co.uk) to find out about prices.
-**************** END COMMERCIAL BREAK **************** 
-
 
 ## Frameworks
 - [iPlug2](https://github.com/iPlug2) - iPlug (originally created by Cockos) is an awesome plug-in framework. I have been maintaining a fork of it since ~2011 called [WDL-OL](https://github.com/olilarkin/wdl-ol). In 2018 I made a big effort to update it with the help of some other developers (in particular [Alex Harker](https://github.com/AlexHarker)). iPlug's syntax is super simple, for example, creating a parameter or a control in the UI is only a single line of C++ code.

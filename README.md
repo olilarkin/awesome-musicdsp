@@ -5,7 +5,7 @@ This is a curated list of my favourite music DSP and audio programming resources
 Oli Larkin
 
 ## Frameworks
-- [iPlug2](https://github.com/iPlug2) - iPlug (originally created by Cockos) is an awesome plug-in framework. I have been maintaining a fork of it since ~2011 called [WDL-OL](https://github.com/olilarkin/wdl-ol). In 2018 [Alex Harker](https://github.com/AlexHarker) and I made a big effort to update it, work is ongoing! iPlug's syntax is super simple, for example, creating a parameter or a control in the UI is only a single line of C++ code.
+- [iPlug2](https://github.com/iPlug2) - iPlug (originally created by Cockos) is an awesome plug-in framework. I have been maintaining a fork of it since ~2011 called [WDL-OL](https://github.com/olilarkin/wdl-ol). In 2018 [Alex Harker](https://github.com/AlexHarker) and I made a big effort to update it and continue to work on it. iPlug's syntax is super simple, for example, creating a parameter or a control in the UI is only a single line of C++ code.
 - [JUCE](https://github.com/WeAreROLI/JUCE) - JUCE is an undeniably awesome C++ application/plug-in framework with audio roots. It boasts a vast amount of functionality for the development of music software, including support for almost all plug-in formats and platforms. JUCE is used widely in the music technology industry and it has excellent documentation, code standards, features and support. The JUCE team at Roli organise the [Audio Developer's Conference (ADC)](https://juce.com/adc) which is the most awesome conference around if you like audio programming. What's more all the videos from all the ADCs so far are available [on youtube](https://www.youtube.com/channel/UCaF6fKdDrSmPDmiZcl9KLnQ/videos).
 - [VSTGUI](https://github.com/steinbergmedia/vstgui) - VSTGUI is Steinberg's cross-platform UI toolkit for audio plug-ins. It is released under a BSD licence, and although it's not my weapon of choice, it's an impressive piece of work and many plug-in developers use it for their products.
 - [AudioKit](http://audiokit.io/) - Well, i'm going to break the rules and include AudioKit here which uses the Swift programming language, because if you want to make apps for Apple's devices this is a great option, although if you want to do low level stuff, you will still have to delve into C/C++. It's a DSP and UI toolkit for audio things, so going in this category.
@@ -75,11 +75,13 @@ Most of the audio programming that I do has to do with plug-ins, but I found a c
 - [the owl pedal/module](https://hoxtonowl.com/) - This is a programmable stomp box and eurorack module that I've been working with since the kick starter campaign to launch it. It's a really nice little unit, which you can program in C++, FAUST, Pd or with Max gen~. I find the limited interface with 4 controls makes me think quite carefully about what's important about my DSP algorithm. You can find some patches I made for it (using a mixture of c++ and FAUST) in the [user library](https://www.rebeltech.org/patch-library/patches/authors), and the original code [here](https://github.com/olilarkin/OL-OWLPatches).
 - [bela](https://bela.io/) - Bela is a wonderful little SoC + Audio Interface which is pretty revolutionary, allowing super low latency audio and sensor I/O all clocked together, in a tiny package. I wrote the FAUST support class for bela. You can also program it with C++ or libpd, and even supercollider.
 
-## Youtubers
+## Youtubers / Stuff to watch
 
-- [TheAudioProgrammer](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A) - includes a lot of tutorials about JUCE  with guest slots on things like web audio.
+- [TheAudioProgrammer](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A) - includes a lot of tutorials about JUCE with guest slots on things like web audio.
 
 - [TheChernoProject](https://www.youtube.com/user/TheChernoProject) - although this channel is focused on game development, the [C++ series](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) is excellent. Annoying hand gestures, but an amazing energy and passion for teaching. Highly recommended.
+
+- [Steve Duda @ Ableton Loop](https://www.youtube.com/watch?v=Cp0rtLaXBio&t=1456s) - an inspiring interview with a great developer about a killer synth.
 
 ## Places
 Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of stuff...

@@ -69,7 +69,7 @@ Here are some quality open source instruments/effects plug-in projects.
 - [AirWindows Plugins](https://github.com/airwindows/airwindows) - A large collection of GUI-less plug-ins open source but supported via patreon [see airwindows site](http://www.airwindows.com/)
 - [Temper](https://github.com/creativeintent/temper) - A digital distiotion built using JUCE and FAUST
 
-## Getting physical
+## Working with hardware
 Most of the audio programming that I do has to do with plug-ins, but I found a couple of hardware platforms that I really like developing for (mainly because writing code for these devices is not so different to making a plug-in).
 
 - [the owl pedal/module](https://hoxtonowl.com/) - This is a programmable stomp box and eurorack module that I've been working with since the kick starter campaign to launch it. It's a really nice little unit, which you can program in C++, FAUST, Pd or with Max gen~. I find the limited interface with 4 controls makes me think quite carefully about what's important about my DSP algorithm. You can find some patches I made for it (using a mixture of c++ and FAUST) in the [user library](https://www.rebeltech.org/patch-library/patches/authors), and the original code [here](https://github.com/olilarkin/OL-OWLPatches).
@@ -80,9 +80,11 @@ Most of the audio programming that I do has to do with plug-ins, but I found a c
 
 - [TheAudioProgrammer](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A) - includes a lot of tutorials about JUCE with guest slots on things like web audio.
 
-- [TheChernoProject](https://www.youtube.com/user/TheChernoProject) - although this channel is focused on game development, the [C++ series](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) is excellent. Annoying hand gestures, but an amazing energy and passion for teaching. Highly recommended.
+- [TheChernoProject](https://www.youtube.com/user/TheChernoProject) - although this channel is focused on game development, the [C++ series](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) is excellent. Highly recommended.
 
 - [Teaching Yourself to Make Music Software: Steve Duda in Conversation | Loop](https://www.youtube.com/watch?v=Cp0rtLaXBio&t=1456s) - an inspiring interview with a great developer about a killer synth.
+
+- [C++ Real-Time Audio Programming with Bela](https://www.youtube.com/playlist?list=PLCrgFeG6pwQmdbB6l3ehC8oBBZbatVoz3) - A very clearly presented course.
 
 ## Places
 Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of stuff...

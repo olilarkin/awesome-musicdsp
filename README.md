@@ -24,6 +24,7 @@ Oli Larkin
 - [HISSTools Library](https://github.com/AlexHarker/HISSTools_Library) - a nice BSD licensed library by Alex Harker, including FFT abstractions and multi-channel  convolution, amongst other things
 - [Spatial Audio Framework](https://github.com/leomccormack/Spatial_Audio_Framework) - Another excellent library for ambisonics and other spatial audio related processing
 - [DSPFilters](https://github.com/vinniefalco/DSPFilters) - Vinno Falco made this excellent MIT licensed IIR filter library. [Here](https://github.com/olilarkin/DSPFilters) is a fork to work with the latest JUCE. See also [iir1](https://github.com/berndporr/iir1), which seems a futher developed and improved version.
+- [MadronaLib](https://github.com/madronalabs/madronalib) - Randy Jones' DSP library, which is awesome because it is all designed for SIMD processing.
 
 ## Reading
 This is a small selection of books that have been helpful to me. There are many others that look absolutely great but I have not used them in anger (yet).
@@ -81,15 +82,10 @@ Most of the audio programming that I do has to do with plug-ins, but I found a c
 ## Youtubers / Stuff to watch
 
 - [TheAudioProgrammer](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A) - includes a lot of tutorials about JUCE with guest slots on things like web audio.
-
 - [TheChernoProject](https://www.youtube.com/user/TheChernoProject) - although this channel is focused on game development, the [C++ series](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) is excellent. Highly recommended.
-
 - [Teaching Yourself to Make Music Software: Steve Duda in Conversation | Loop](https://www.youtube.com/watch?v=Cp0rtLaXBio&t=1456s) - an inspiring interview with a great developer about a killer synth.
-
 - [Sean Costello (Valhalla DSP) on reverb design](https://youtu.be/aJLhqfHrwsw) - great talk by another great plugin developer
-
 - [C++ Real-Time Audio Programming with Bela](https://www.youtube.com/playlist?list=PLCrgFeG6pwQmdbB6l3ehC8oBBZbatVoz3) - A very clearly presented course.
-
 - [Vadim Zavalishin - The Art of VA Filter Design, ADC 2018](https://www.youtube.com/watch?v=zPzCLqkQnr0) - Video overview of [the book](https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.0.pdf)
 
 ## Places

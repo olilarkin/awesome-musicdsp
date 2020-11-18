@@ -23,8 +23,13 @@ Oli Larkin
 - [HOALibrary](https://github.com/CICM/HoaLibrary-Light) - A flexible DSP library for high order ambisonics (HOA) - a spatial audio platform that is becoming more and more relevant thanks to VR (GPL Licence).
 - [HISSTools Library](https://github.com/AlexHarker/HISSTools_Library) - a nice BSD licensed library by Alex Harker, including FFT abstractions and multi-channel  convolution, amongst other things
 - [Spatial Audio Framework](https://github.com/leomccormack/Spatial_Audio_Framework) - Another excellent library for ambisonics and other spatial audio related processing
-- [DSPFilters](https://github.com/vinniefalco/DSPFilters) - Vinno Falco made this excellent MIT licensed IIR filter library. [Here](https://github.com/olilarkin/DSPFilters) is a fork to work with the latest JUCE. See also [iir1](https://github.com/berndporr/iir1), which seems a futher developed and improved version.
 - [MadronaLib](https://github.com/madronalabs/madronalib) - Randy Jones' DSP library, which is awesome because it is all designed for SIMD processing.
+
+## DSP Filters
+
+- [Filter Playground](https://smus.com/filter-playground) - A nice blog post and [web audio tool](https://borismus.github.io/filter-playground/) demonstrating IIR filters
+- [MicroModeler Filter Design Tool](https://www.micromodeler.com) - An excellent web based filter design tool
+- [DSPFilters](https://github.com/vinniefalco/DSPFilters) - Vinno Falco made this excellent MIT licensed IIR filter library. [Here](https://github.com/olilarkin/DSPFilters) is a fork to work with the latest JUCE. See also [iir1](https://github.com/berndporr/iir1), which seems a futher developed and improved version.
 
 ## Reading
 This is a small selection of books that have been helpful to me. There are many others that look absolutely great but I have not used them in anger (yet).

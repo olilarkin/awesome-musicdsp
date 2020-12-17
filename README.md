@@ -1,6 +1,6 @@
 # More Awesome Music DSP*
 
-This is a curated list of my favourite music DSP and audio programming resources, focusing on the C++ programming language. I like implementations that allow you to be creative quickly. The less code for the end user (e.g plug-in developer) the better! This was originally meant to be an official "Awesome list", but apparently you are not meant to write in the first person, so this is now a "more awesome" list.
+This is a curated list of my favourite music DSP and audio programming resources, focusing on the C++ programming language. I like implementations that allow you to be creative quickly. This was originally meant to be an official "Awesome list", but apparently you are not meant to write in the first person, so this is now a "more awesome" list.
 
 Oli Larkin
 

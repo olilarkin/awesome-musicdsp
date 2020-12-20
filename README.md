@@ -13,7 +13,7 @@ Oli Larkin
 - [ASPiK](http://www.aspikplugins.com/) - This is a new framework from Will Pirkle (to accompany his books) which is based on the VST3 SDK and it's AU/AAX wrappers, along with VST GUI and its runtime UI editor. It includes a project creator and a lot of extra "nuts and bolts" code for plug-in development.
 - [DPF](https://github.com/DISTRHO/DPF) - Distrho Plug-in Framework is a nice C++ plug-in framework by falkTX, supporting lots of Linux formats.
 - [Jamba](https://jamba.dev/) - A new framework built on top of the VST3SDK & VSTGUI, with some useful extra widgets and good CMake support
-- [DPlug](https://dplug.org/) - A plug-in framework using the D programming language, that represents a huge amount of work from the authors. I haven't tried this myself, but I've decided to include it here in solidarity with the authors. As a fellow open-source framework Dev, it's nice if people know about your work!
+- [DPlug](https://dplug.org/) - A plug-in framework using the D programming language, that has had a huge amount of work over many years. I haven't tried it myself, but I've decided to include it here in solidarity with the authors. As a fellow open-source framework Dev, it's nice if people know about your work!
 
 ## DSP Libraries
 

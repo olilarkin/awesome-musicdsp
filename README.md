@@ -102,6 +102,7 @@ Most of the audio programming that I do has to do with plug-ins, but I found a c
 - [Sean Costello (Valhalla DSP) on reverb design](https://youtu.be/aJLhqfHrwsw) - great talk by another great plugin developer
 - [C++ Real-Time Audio Programming with Bela](https://www.youtube.com/playlist?list=PLCrgFeG6pwQmdbB6l3ehC8oBBZbatVoz3) - A very clearly presented course.
 - [Vadim Zavalishin - The Art of VA Filter Design, ADC 2018](https://www.youtube.com/watch?v=zPzCLqkQnr0) - Video overview of [the book](https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.0.pdf)
+- [HOW MOOG MAKES SYNTH APPS: INTERVIEW WITH GEERT BEVIN, HEAD OF SOFTWARE AT MOOG](https://audiokitpro.com/geert-moog/) - great interview full of insight
 
 ## Places
 Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of stuff...

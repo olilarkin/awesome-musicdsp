@@ -20,7 +20,6 @@ Oli Larkin
 
 - [Gamma](https://github.com/LancePutnam/Gamma) - Gamma is a very awesome C++ DSP framework by Lance Putnam - a developer whose name I've known since the synthedit days. The beauty of Gamma is the conciseness of the implementation of certain techniques. The STFT is a bit of a pain to code yourself, involving overlapping FFT windows etc - how about [this](https://github.com/LancePutnam/Gamma/blob/master/examples/spectral/STFT.cpp) for a concise end user implementation.
 - [Q](https://github.com/cycfi/Q) - A very nice looking modern C++ DSP library with concise examples
-
 - [HIIR](http://ldesoras.free.fr/prod.html) - HIIR is a seriously cool oversampling library by Laurent de Soras. Oversampling is something we often need in audio DSP, and this library handles it elegantly - providing a variety of classes for low latency IIR half band filtering (including SIMD optimizations). Originally this had a LGPL licence but now it's available under the [WTFPL](http://www.wtfpl.net/) - my favourite licence.
 - [HOALibrary](https://github.com/CICM/HoaLibrary-Light) - A flexible DSP library for high order ambisonics (HOA) - a spatial audio platform that is becoming more and more relevant thanks to VR (GPL Licence).
 - [HISSTools Library](https://github.com/AlexHarker/HISSTools_Library) - a nice BSD licensed library by Alex Harker, including FFT abstractions and multi-channel  convolution, amongst other things

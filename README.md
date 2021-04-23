@@ -14,6 +14,7 @@ Oli Larkin
 - [DPF](https://github.com/DISTRHO/DPF) - Distrho Plug-in Framework is a nice C++ plug-in framework by falkTX, supporting lots of Linux formats.
 - [Jamba](https://jamba.dev/) - A new framework built on top of the VST3SDK & VSTGUI, with some useful extra widgets and good CMake support
 - [DPlug](https://dplug.org/) - A plug-in framework using the D programming language, that has had a huge amount of work over many years. I haven't tried it, but I've decided to include it here in solidarity with the authors. As a fellow open-source framework developer, it's nice if people know about your work.
+- [Elements](https://github.com/cycfi/elements) - A very promising UI framework for audio software using modern C++. 
 
 ## DSP Libraries
 
@@ -35,7 +36,7 @@ Oli Larkin
 
 - [Filter Playground](https://smus.com/filter-playground) - A nice blog post and [web audio tool](https://borismus.github.io/filter-playground/) demonstrating IIR filters
 - [MicroModeler Filter Design Tool](https://www.micromodeler.com) - An excellent web based filter design tool
-- [DSPFilters](https://github.com/vinniefalco/DSPFilters) - Vinno Falco made this excellent MIT licensed IIR filter library. [Here](https://github.com/olilarkin/DSPFilters) is a fork to work with the latest JUCE. See also [iir1](https://github.com/berndporr/iir1), which seems a futher developed and improved version.
+- [DSPFilters](https://github.com/vinniefalco/DSPFilters) - Vinno Falco made this excellent MIT licensed IIR filter library. [Here](https://github.com/olilarkin/DSPFilters) is a fork to work with the latest JUCE. See also [iir1](https://github.com/berndporr/iir1), which seems a futher developed and improved version. 
 
 ## Reading
 This is a small selection of books that have been helpful to me. There are many others that look absolutely great but I have not used them in anger (yet).
@@ -47,7 +48,8 @@ This is a small selection of books that have been helpful to me. There are many 
 - [DAFX Conference Archive](http://www.dafx.de/) - All the papers from the DAFX conference are available online. Another great resource.
 - [EarLevel Engineering](http://www.earlevel.com/) - Nigel Redmond's DSP blog contains some very nicely written explanations of a variety of topics.
 - [Michael Tyson blog](http://atastypixel.com/blog/four-common-mistakes-in-audio-development/) - In depth article about Four common mistakes in audio development
-- [Ross Bencina's blog/site](http://www.rossbencina.com/) - Another Australian who writes a lot of interesting software and articles about lock free programming
+- [Ross Bencina's blog/site](http://www.rossbencina.com/) - A developer who writes a lot of interesting software and articles about lock free programming
+- [Cytomic Technical Papers](https://cytomic.com/index.php?q=technical-papers). Andy Simper's technical papers, which include code examples and theory for some great filters.
 
 ## Tools
 Slightly veering off topic, these are the software tools that I find useful in my audio programming. Xcode and Visual Studio Community are the free IDEs that I use, and both are very powerful these days.
@@ -74,6 +76,7 @@ I got into programming in C/C++ by making objects for Max and Synthedit. Learnin
 - [Webkit's Web Audio API](https://github.com/WebKit/WebKit/tree/main/Source/WebCore/Modules/webaudio) - This is the C++ code for WebKit's implementation of the Web Audio API, as used in Safari.
 - [Blink's Web Audio API](https://chromium.googlesource.com/chromium/blink/+/master/Source/modules/webaudio/) - The same thing in Blink (Google chromium).
 - [Firefox's Web Audio API](https://searchfox.org/mozilla-central/source/dom/media/webaudio/) - And for Mozilla Firefox.
+- [pedalvite](https://github.com/EleonoreMizo/pedalevite) - An open source pedalboard project from a developer who did a lot of the DSP in the best plugins of the last ~20 years.
 
 ## Open source instruments/effects
 Here are some quality open source instruments/effects plug-in projects.

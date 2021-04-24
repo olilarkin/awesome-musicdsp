@@ -14,11 +14,12 @@ Oli Larkin
 - [DPF](https://github.com/DISTRHO/DPF) - Distrho Plug-in Framework is a nice C++ plug-in framework by falkTX, supporting lots of Linux formats.
 - [Jamba](https://jamba.dev/) - A new framework built on top of the VST3SDK & VSTGUI, with some useful extra widgets and good CMake support
 - [DPlug](https://dplug.org/) - A plug-in framework using the D programming language, that has had a huge amount of work over many years. I haven't tried it, but I've decided to include it here in solidarity with the authors. As a fellow open-source framework developer, it's nice if people know about your work.
-- [Elements](https://github.com/cycfi/elements) - A very promising UI framework for audio software using modern C++. 
+- [Elements](https://github.com/cycfi/elements) - A very promising UI framework for audio software using modern C++.
+- [PUGL](https://github.com/lv2/pugl) - A cross platform GLFW-like solution that lets plug-in developers use OpenGL for their UIs
 
 ## DSP Libraries
 
-- [Gamma](https://github.com/LancePutnam/Gamma) - Gamma is a very awesome C++ DSP framework by Lance Putnam. The beauty of Gamma is the conciseness of the implementation of certain techniques. How about [this](https://github.com/LancePutnam/Gamma/blob/master/examples/spectral/STFT.cpp) for a concise STFT example.
+- [Gamma](https://github.com/LancePutnam/Gamma) - Gamma is a very awesome C++ DSP library by Lance Putnam. The beauty of Gamma is the conciseness of the implementation of certain techniques. How about [this](https://github.com/LancePutnam/Gamma/blob/master/examples/spectral/STFT.cpp) for a concise STFT example.
 - [Q](https://github.com/cycfi/Q) - A very nice looking modern C++ DSP library with concise examples
 - [HIIR](http://ldesoras.free.fr/prod.html) - HIIR is a seriously cool oversampling library by Laurent de Soras. Oversampling is something we often need in audio DSP, and this library handles it elegantly - providing a variety of classes for low latency IIR half band filtering (including SIMD optimizations). Originally this had a LGPL licence but now it's available under the [WTFPL](http://www.wtfpl.net/) - my favourite licence.
 - [HOALibrary](https://github.com/CICM/HoaLibrary-Light) - A flexible DSP library for high order ambisonics (HOA) - a spatial audio platform that is becoming more and more relevant thanks to VR (GPL Licence).

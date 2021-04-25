@@ -1,19 +1,22 @@
-# More Awesome Music DSP*
+# More Awesome Music DSP (and Audio Programming) resources*
 
-This is a curated list of my favourite music DSP and audio programming resources. This was originally meant to be an official "Awesome list", but apparently you are not meant to write in the first person, so this is now a "more awesome" list.
+This is a curated list of my favourite music DSP and audio programming resources. It was originally meant to be an official "Awesome list", but apparently you are not meant to write in the first person, so it is now a "more awesome" list.
 
 Oli Larkin
 
-## Frameworks
+## Plug-in/App Frameworks
+
 - [iPlug2](https://github.com/iPlug2) - Originally created by Cockos, iPlug is an awesome plug-in framework. For a long time, I was maintaining a [fork of iPlug1](https://github.com/olilarkin/wdl-ol), but over the last few years [Alex Harker](https://github.com/AlexHarker) and I have reworked it into something new, with the imaginitive name: iPlug2. It's a massive improvement on the original version, adding support for GPU accelerated vector graphics, iOS, WebViews, AUv3 and compiling to WebAudio/WASM, amongst many other things. iPlug2's syntax is super simple, for example, creating a parameter or a control in the UI is only a single line of C++ code.
 - [JUCE](https://github.com/juce-framework/JUCE) - JUCE is an undeniably awesome C++ application/plug-in framework with audio roots. It boasts a vast amount of functionality for the development of music software, including support for almost all plug-in formats and platforms. JUCE is used widely in the music technology industry and it has excellent documentation, code standards, features and support. The JUCE team organise the [Audio Developer's Conference (ADC)](https://juce.com/adc) which is one of the best conferences to attend if you like audio programming. What's more all the videos from all the ADCs so far are available [on youtube](https://www.youtube.com/channel/UCaF6fKdDrSmPDmiZcl9KLnQ/videos).
-- [VSTGUI](https://github.com/steinbergmedia/vstgui) - VSTGUI is Steinberg's cross-platform UI toolkit for audio plug-ins. It is released under a BSD licence, it's an impressive piece of work and many plug-in developers use it for their products.
 - [AudioKit](http://audiokit.io/) - AudioKit uses the Swift programming language. It's a high level DSP and UI toolkit for audio things. If you want to make apps for Apple's devices this is a great option, although if you want to do more low level, custom DSP, you will still have to do some C/C++. The AudioKit team have also published a nice [AUv3 template project](https://github.com/AudioKit/AUv3-Example-App).
-- [WDL](https://github.com/justinfrankel/WDL) - WDL is Cockos' library of reusable C++ code, that is used to make the DAW Reaper, amongst other things. Whilst not traditionally a framework, there is so much good stuff in here, it is highly recommended - although there is next to no documentation and the code is difficult to understand. For more info about the various parts of WDL (which can be used independently), check [the Cockos site](https://www.cockos.com/wdl/)
 - [ASPiK](http://www.aspikplugins.com/) - This is a framework from [Will Pirkle](https://www.willpirkle.com/), used in his books, which is based on the VST3 SDK and it's AU/AAX wrappers, along with VST GUI and its runtime UI editor. It includes a project creator and a lot of extra "nuts and bolts" code for plug-in development.
 - [DPF](https://github.com/DISTRHO/DPF) - Distrho Plug-in Framework is a nice C++ plug-in framework by falkTX, supporting lots of Linux formats.
 - [Jamba](https://jamba.dev/) - A new framework built on top of the VST3SDK & VSTGUI, with some useful extra widgets and good CMake support
 - [DPlug](https://dplug.org/) - A plug-in framework using the D programming language, that has had a huge amount of work over many years. I haven't tried it, but I've decided to include it here in solidarity with the authors. As a fellow open-source framework developer, it's nice if people know about your work.
+
+## UI Frameworks
+
+- [VSTGUI](https://github.com/steinbergmedia/vstgui) - VSTGUI is Steinberg's cross-platform UI framework for audio plug-ins. It is released under a BSD licence, it's an impressive piece of work and many plug-in developers use it for their products.
 - [Elements](https://github.com/cycfi/elements) - A very promising UI framework for audio software using modern C++.
 - [PUGL](https://github.com/lv2/pugl) - A cross platform GLFW-like solution that lets plug-in developers use OpenGL for their UIs
 
@@ -26,7 +29,8 @@ Oli Larkin
 - [HISSTools Library](https://github.com/AlexHarker/HISSTools_Library) - a nice BSD licensed library by Alex Harker, including FFT abstractions and multi-channel  convolution, amongst other things
 - [Spatial Audio Framework](https://github.com/leomccormack/Spatial_Audio_Framework) - Another excellent library for ambisonics and other spatial audio related processing
 - [MadronaLib](https://github.com/madronalabs/madronalib) - Randy Jones' DSP library, which is awesome because it is all designed for SIMD processing.
-
+- [WDL](https://github.com/justinfrankel/WDL) - WDL is Cockos' library of reusable C++ code, that is used to make the DAW Reaper, amongst other things. It includes open source implementations of many useful things such as resampling and convolution, although there is next to no documentation and the code is difficult to understand. For more info about the various parts of WDL (which can be used independently), check [the Cockos site](https://www.cockos.com/wdl/)
+- 
 ## Domain Specific Languages (DSLs)
 
 - [FAUST](https://github.com/grame-cncm/faust) - FAUST is a powerful functional DSL for audio DSP with many options for quickly compiling to different “architectures” including audio plug-ins and embedded devices. FAUST is not interpreted like programming languages such as Puredata/Max/Supercollider/javascript, it is compiled to C++ and various other programming languages or bytecode formats such as Web Assembly (WASM). This functionality is suited to rapid prototyping but can also produce robust and performant binaries. Whilst the rapid prototyping possibilities of FAUST are appealing to me, what I like most about it is the extensive library of high quality DSP, particularly for physical modelling synthesis and the way in which you can compose algorithms using the concise syntax. FAUST includes a JIT compiler "libfaust" based on LLVM, which I [integrated into a JUCE module](https://github.com/olilarkin/juce_faustllvm). I've also [integrated FAUST support into iPlug2](https://github.com/iPlug2/iPlug2/tree/master/Examples/IPlugFaustDSP) and used it to make a [physical model of the Indian Tambura](https://github.com/olilarkin/tambura).
@@ -39,7 +43,7 @@ Oli Larkin
 - [DSPFilters](https://github.com/vinniefalco/DSPFilters) - Vinno Falco made this excellent MIT licensed IIR filter library. [Here](https://github.com/olilarkin/DSPFilters) is a fork to work with the latest JUCE. See also [iir1](https://github.com/berndporr/iir1), which seems a further developed and improved version. 
 
 ## Reading
-This is a small selection of books that have been helpful to me. There are many others that look absolutely great but I have not used them in anger (yet).
+This is a small selection of books that have been helpful to me.
 
 - [Will Pirkle](http://www.willpirkle.com/) - Will Pirkle has written two books that will be invaluable the aspiring audio plug-in developer - "Designing Audio Effect Plug-Ins in C++" and "Designing Software Synthesizer Plug-Ins in C++". The books contain detailed information about important audio DSP, including modern virtual analogue techniques, and sample code for complete sythesizers that sound good. My only criticism is that a large part of the books relates to a bespoke plugin framework and providing information for multiple formats, AU, VST3 can be a bit overwhelming, and clutters the content. Nevertheless I highly recommend these books. For more info [see here](http://www.willpirkle.com/about/books)
 - [Dodge and Jerse - Computer Music: Synthesis, Composition and Performance, 2nd Edition](https://books.google.co.uk/books/about/Computer_Music.html?id=eY_BQgAACAAJ&redir_esc=y) - This is my absolute favourite book to recommend to students studying computer music/audio synthesis. I find the book does not date like some other computer music texts. The block diagrams are charming and the techniques are discussed very well.
@@ -64,9 +68,9 @@ These are the software tools that I find useful in my audio programming.
 - [xeus-cling](https://mybinder.org/v2/gh/QuantStack/xeus-cling/stable?filepath=notebooks/xcpp.ipynb) - This is a really cool project allowing you to use JIT compiled C++ in jupyter notebooks - which, like Matplotlib-cpp above is great for visualizing algorithms using the same code that you can use in production, inside the popular jupyter notebook format. [Here](https://github.com/olilarkin/XeusClingMatplotLibExample) is an example of how you can use those things together, easily via a ready made docker image.
 - [StudioRack plugin manager](https://studiorack.github.io/studiorack-site/) - Open-source audio plugin manager tool and Github plugin templates to automatically build cross-platform audio plugins.
 - [dspplot](https://github.com/kfrlib/dspplot) - A python script that I find useful for plotting filter responses
+- [Docker desktop](https://www.docker.com/products/docker-desktop) - Docker is incredibly useful for creating reproducible environments, e.g. with specific python libraries installed.
 
 ## Miscellaneous open source audio code/projects
-I got into programming in C/C++ by making objects for Max and Synthedit. Learning how to use the SDKs for one of those or for one of the following open source packages is a nice way to start in my opinion, since you don't need to think about too many things. What's more - these great projects all show you how you can go about certain tasks ... the code is there for you to look at. It might take you a while to find it, and sometimes the code might be hard to understand, but they all have oscillators, filters etc. There are many third party objects as well, that are also open source. 
 
 - [puredata](http://msp.ucsd.edu/software.html) - I don't think pd needs an introduction! Also check out [libpd](https://github.com/libpd), which you can use as an embeddable DSP runtime in your C++ audio plug-in etc.
 - [supercollider](https://github.com/supercollider/supercollider) - Likewise, but make sure you look at the scsynth part for DSP stuff.
@@ -74,13 +78,14 @@ I got into programming in C/C++ by making objects for Max and Synthedit. Learnin
 - [vcvrack](https://github.com/VCVRack/Rack) - Whilst the other items in this list have been around a while and have somewhat arcane code-bases, this is pretty new and the API is very clean and simple. I think making a VCVRack module it is a great way to get into audio programming.
 - [tracktion engine](https://github.com/Tracktion/tracktion_engine) - Source code for an entire DAW engine, using modern C++. An amazing resource for learning all sorts of things including how to structure and architect large audio projects. GPL/Commercial license.
 - [musicdsp.org](https://www.musicdsp.org) - "A collection of algorithms, thoughts and snippets, gathered for the music dsp community". A long serving site that has recently been revamped. Beware: most of the code there was written a very long time ago, and optimization tricks etc, may not be relevant on modern machines. Also there are lots of code snippets programming languages other than C++ (delphi, java, C#  etc). Could do with some curation.
+
 - [Webkit's Web Audio API](https://github.com/WebKit/WebKit/tree/main/Source/WebCore/Modules/webaudio) - This is the C++ code for WebKit's implementation of the Web Audio API, as used in Safari.
 - [Blink's Web Audio API](https://chromium.googlesource.com/chromium/blink/+/master/Source/modules/webaudio/) - The same thing in Blink (Google chromium).
 - [Firefox's Web Audio API](https://searchfox.org/mozilla-central/source/dom/media/webaudio/) - And for Mozilla Firefox.
 
 
 ## Open source instruments/effects
-Here are some quality open source instruments/effects plug-in projects.
+
 - [surge](https://github.com/surge-synthesizer/surge) - Surge was an excellent product from a very talented developer and it's recently been open sourced and updated to work with modern versions of VSTGUI.
 - [helm](https://github.com/mtytel/helm) - Helm is a comprehensive synth with a modern user interface written with JUCE, using OpenGL for visualisation widgets.
 - [obxd](https://github.com/2DaT/Obxd) - OBxd  is a great sounding oberheim emulation, written with JUCE. [DiscoDSP have updated it](https://github.com/reales/OB-Xd), and it has also been [ported to work on the web as a WebAudioModule](http://www.webaudiomodules.org/wamsynths/obxd)
@@ -91,7 +96,6 @@ Here are some quality open source instruments/effects plug-in projects.
 - [zita stuff](http://kokkinizita.linuxaudio.org/linuxaudio/index.html) - Fons Adriaensen's linux audio projects offer a lot of great tools for acoustic measurements, spatial audio etc - mostly as jack apps.
 
 ## Hardware/embedded
-Most of the audio programming that I do has to do with plug-ins, but I found a couple of hardware platforms that I really like developing for (mainly because writing code for these devices is not so different to making a plug-in).
 
 - [the owl pedal/module](https://hoxtonowl.com/) - This is a programmable stomp box and eurorack module that I've been working with since the kick starter campaign to launch it. It's a really nice little unit, which you can program in C++, FAUST, Pd or with Max gen~. I find the limited interface with 4 controls makes me think quite carefully about what's important about my DSP algorithm. You can find some patches I made for it (using a mixture of c++ and FAUST) in the [user library](https://www.rebeltech.org/patch-library/patches/authors), and the original code [here](https://github.com/olilarkin/OL-OWLPatches).
 - [bela](https://bela.io/) - Bela is a wonderful little SoC + Audio Interface which is pretty revolutionary, allowing super low latency audio and sensor I/O all clocked together, in a tiny package. I wrote the FAUST support class for bela. You can also program it with C++ or libpd, and even supercollider.
@@ -100,6 +104,7 @@ Most of the audio programming that I do has to do with plug-ins, but I found a c
 - [pedalvite](https://github.com/EleonoreMizo/pedalevite) - An open source pedalboard project from a developer who did a lot of the DSP in the best plugins of the last ~20 years.
 
 ## Youtubers / Stuff to watch
+
 - [TheAudioProgrammer](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A) - includes a lot of tutorials about JUCE with guest slots on things like web audio.
 - [TheChernoProject](https://www.youtube.com/user/TheChernoProject) - although this channel is focused on game development, the [C++ series](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) is excellent. Highly recommended.
 - [Teaching Yourself to Make Music Software: Steve Duda in Conversation | Loop](https://www.youtube.com/watch?v=Cp0rtLaXBio&t=1456s) - an inspiring interview with a great developer about a killer synth.
@@ -109,7 +114,6 @@ Most of the audio programming that I do has to do with plug-ins, but I found a c
 - [HOW MOOG MAKES SYNTH APPS: INTERVIEW WITH GEERT BEVIN, HEAD OF SOFTWARE AT MOOG](https://audiokitpro.com/geert-moog/) - great interview full of insight
 
 ## Places
-Here are a few links to the various corners of the internet and real-world where you might like to hang out if you like this kind of stuff...
 
 - [musicdsp mailing list](http://sites.music.columbia.edu/cmc/music-dsp/) - The music DSP mailing list is pretty quiet these days, but it still worth signing up, despite the web 0-1 front page. Every now and again a music DSP legend posts something interesting. 
 - [KvR Audio DSP and Plug-in Development Forum](https://www.kvraudio.com/forum/viewforum.php?f=33) - This is probably the most active forum for audio DSP that is not aligned with a particular plug-in framework. There are some very smart people, some mavericks and some plain weirdos who hang out here.

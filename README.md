@@ -49,7 +49,7 @@ This is a small selection of books that have been helpful to me. There are many 
 - [EarLevel Engineering](http://www.earlevel.com/) - Nigel Redmond's DSP blog contains some very nicely written explanations of a variety of topics.
 - [Michael Tyson blog](http://atastypixel.com/blog/four-common-mistakes-in-audio-development/) - In depth article about Four common mistakes in audio development
 - [Ross Bencina's blog/site](http://www.rossbencina.com/) - A developer who writes a lot of interesting software and articles about lock free programming
-- [Cytomic Technical Papers](https://cytomic.com/index.php?q=technical-papers). Andy Simper's technical papers, which include code examples and theory for some great filters.
+- [Cytomic Technical Papers](https://cytomic.com/index.php?q=technical-papers) - Andy Simper's technical papers, which include code examples and theory.
 
 ## Tools
 These are the software tools that I find useful in my audio programming.

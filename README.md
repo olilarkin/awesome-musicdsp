@@ -97,6 +97,7 @@ Most of the audio programming that I do has to do with plug-ins, but I found a c
 - [ELK Audio OS](https://elk.audio/dev-kit/) - A new embedded linux OS & dev kit that runs VST2 & VST3 plugins.
 - [mutable instruments](https://github.com/pichenettes/eurorack) - Emilie Gillet's work is inspirational. The code has been [ported to VCVRack](https://github.com/VCVRack/AudibleInstruments/tree/master/src) and to some nice [iOS AUv3s](https://github.com/boourns/Spectrum)
 - [pedalvite](https://github.com/EleonoreMizo/pedalevite) - An open source pedalboard project from a developer who did a lot of the DSP in the best plugins of the last ~20 years.
+- [Kyma/Pacarana](http://www.symbolicsound.com/cgi-bin/bin/view/Products/Pacarana) - "A supercomputer designed for sound". Used extensively in the film and professional sound design industry, this (very expensive!) hardware accelerated audio DSP platform is like nothing else.
 
 ## Youtubers / Stuff to watch
 - [TheAudioProgrammer](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A) - includes a lot of tutorials about JUCE with guest slots on things like web audio.

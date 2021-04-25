@@ -65,7 +65,7 @@ These are the software tools that I find useful in my audio programming.
 - [StudioRack plugin manager](https://studiorack.github.io/studiorack-site/) - Open-source audio plugin manager tool and Github plugin templates to automatically build cross-platform audio plugins.
 - [dspploat](https://github.com/kfrlib/dspplot) - A python script that I find useful for plotting filter responses
 
-## Misc open source audio code/projects
+## Miscellaneous open source audio code/projects
 I got into programming in C/C++ by making objects for Max and Synthedit. Learning how to use the SDKs for one of those or for one of the following open source packages is a nice way to start in my opinion, since you don't need to think about too many things. What's more - these great projects all show you how you can go about certain tasks ... the code is there for you to look at. It might take you a while to find it, and sometimes the code might be hard to understand, but they all have oscillators, filters etc. There are many third party objects as well, that are also open source. 
 
 - [puredata](http://msp.ucsd.edu/software.html) - I don't think pd needs an introduction! Also check out [libpd](https://github.com/libpd), which you can use as an embeddable DSP runtime in your C++ audio plug-in etc.
@@ -118,6 +118,7 @@ Here are a few links to the various corners of the internet and real-world where
 - [The audio developer conference (ADC)](https://juce.com/adc) - Whilst the other places mentioned here are all virtual, this is a real conference where you can go and meet real people face-to-face who do audio programming - highly recommended!
 - [TheAudioProgrammer Discord server](https://www.youtube.com/watch?v=E3KOptgChdc) - A popular community for discussing audio programming.
 - [iPlug2 Forum](https://iplug2.discourse.group/) - new forum for iPlug2 discussions
+- [Steinberg VST3 Forum](https://forums.steinberg.net/c/developer/vst-3-sdk/) - A forum for discussions about the VST3 SDK/format
 
 ___
 

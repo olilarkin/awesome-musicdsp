@@ -1,6 +1,6 @@
 # More Awesome Music DSP*
 
-This is a curated list of my favourite music DSP and audio programming resources. It was originally meant to be an official "Awesome list", but apparently you are not meant to write in the first person, so it is now a "more awesome" list.
+This is a curated list of my favourite music DSP and audio programming resources. * It was originally meant to be an official "Awesome list", but apparently you are not meant to write in the first person, so it is now a "more awesome" list.
 
 Oli Larkin
 

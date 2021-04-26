@@ -40,7 +40,10 @@ Oli Larkin
 
 - [Filter Playground](https://smus.com/filter-playground) - A nice blog post and [web audio tool](https://borismus.github.io/filter-playground/) demonstrating IIR filters
 - [MicroModeler Filter Design Tool](https://www.micromodeler.com) - An excellent web based filter design tool
-- [DSPFilters](https://github.com/vinniefalco/DSPFilters) - Vinno Falco made this excellent MIT licensed IIR filter library. [Here](https://github.com/olilarkin/DSPFilters) is a fork to work with the latest JUCE. See also [iir1](https://github.com/berndporr/iir1), which seems a further developed and improved version. 
+- [DSPFilters](https://github.com/vinniefalco/DSPFilters) - Vinno Falco made this excellent MIT licensed IIR filter library. [Here](https://github.com/olilarkin/DSPFilters) is a fork to work with the latest JUCE. See also [iir1](https://github.com/berndporr/iir1), which seems a further developed and improved version.
+- [RBJ Cookbook](https://webaudio.github.io/Audio-EQ-Cookbook/audio-eq-cookbook.html) - HTML version of Robert Bristow-Johnson's EQ cookbook
+- [Cytomic Technical Papers](https://cytomic.com/index.php?q=technical-papers) - Andy Simper's technical papers, which include code examples and theory for modern approaches to filter design
+- [Vadim Zavalishin - The Art of VA Filter Design](https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.0.pdf) - Very math-heavy text on those modern approachs
 
 ## Reading
 This is a small selection of books that have been helpful to me.
@@ -53,11 +56,11 @@ This is a small selection of books that have been helpful to me.
 - [EarLevel Engineering](http://www.earlevel.com/) - Nigel Redmond's DSP blog contains some very nicely written explanations of a variety of topics.
 - [Michael Tyson blog](http://atastypixel.com/blog/four-common-mistakes-in-audio-development/) - In depth article about Four common mistakes in audio development
 - [Ross Bencina's blog/site](http://www.rossbencina.com/) - A developer who writes a lot of interesting software and articles about lock free programming
-- [Cytomic Technical Papers](https://cytomic.com/index.php?q=technical-papers) - Andy Simper's technical papers, which include code examples and theory.
 
 ## Tools
 These are the software tools that I find useful in my audio programming.
 
+- [VSCode & Github Codespaces](https://code.visualstudio.com/) - VSCode is a brilliant text editor that has lots of interesting extensions and functionality. Lately I am using VSCode remote containers and Github Codespaces [see video](https://www.patreon.com/posts/audio-plug-in-44267675) which I think is a game-changing technology.
 - [Cycling '74 Max](https://cycling74.com/) - Max is a great environment to use for prototyping audio plug-ins. There are just so many options for integrating different technologies, I highly recommend it - even if nowadays most of the max patches I make only include a few objects.
 - [Desmos](https://www.desmos.com) - This is an awesome online graphing calculator. Check out some interactive Casio CZ waveforms that I made [saw](https://www.desmos.com/calculator/te4bzpvav3) [square](https://www.desmos.com/calculator/mclynvox0h) [reso1](https://www.desmos.com/calculator/6659cif7oa)
 - [Coliru](http://coliru.stacked-crooked.com/) - This is an online interactive C++ compiler, which can be a very nice and quick way to test out a particular feature of the language, without having to build a binary.
@@ -101,28 +104,31 @@ These are the software tools that I find useful in my audio programming.
 - [bela](https://bela.io/) - Bela is a wonderful little SoC + Audio Interface which is pretty revolutionary, allowing super low latency audio and sensor I/O all clocked together, in a tiny package. I wrote the FAUST support class for bela. You can also program it with C++ or libpd, and even supercollider.
 - [ELK Audio OS](https://elk.audio/dev-kit/) - A new embedded linux OS & dev kit that runs VST2 & VST3 plugins.
 - [mutable instruments](https://github.com/pichenettes/eurorack) - Emilie Gillet's work is inspirational. The code has been [ported to VCVRack](https://github.com/VCVRack/AudibleInstruments/tree/master/src) and to some nice [iOS AUv3s](https://github.com/boourns/Spectrum)
-- [pedalvite](https://github.com/EleonoreMizo/pedalevite) - An open source pedalboard project from a developer who did a lot of the DSP in the best plugins of the last ~20 years.
+- [pedalvite](https://github.com/EleonoreMizo/pedalevite) - An open source pedal board project from a developer who did a lot of the DSP in the best plugins of the last ~20 years.
 
-## Youtubers / Stuff to watch
+## Youtubers
 
 - [TheAudioProgrammer](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A) - includes a lot of tutorials about JUCE with guest slots on things like web audio.
 - [TheChernoProject](https://www.youtube.com/user/TheChernoProject) - although this channel is focused on game development, the [C++ series](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) is excellent. Highly recommended.
+
+## Interesting Talks
+
 - [Teaching Yourself to Make Music Software: Steve Duda in Conversation | Loop](https://www.youtube.com/watch?v=Cp0rtLaXBio&t=1456s) - an inspiring interview with a great developer about a killer synth.
 - [Sean Costello (Valhalla DSP) on reverb design](https://youtu.be/aJLhqfHrwsw) - great talk by another great plugin developer
-- [C++ Real-Time Audio Programming with Bela](https://www.youtube.com/playlist?list=PLCrgFeG6pwQmdbB6l3ehC8oBBZbatVoz3) - A very clearly presented course.
-- [Vadim Zavalishin - The Art of VA Filter Design, ADC 2018](https://www.youtube.com/watch?v=zPzCLqkQnr0) - Video overview of [the book](https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.0.pdf)
-- [HOW MOOG MAKES SYNTH APPS: INTERVIEW WITH GEERT BEVIN, HEAD OF SOFTWARE AT MOOG](https://audiokitpro.com/geert-moog/) - great interview full of insight
+- [C++ Real-Time Audio Programming with Bela](https://www.youtube.com/playlist?list=PLCrgFeG6pwQmdbB6l3ehC8oBBZbatVoz3) - a very clearly presented course.
+- [Vadim Zavalishin - The Art of VA Filter Design, ADC 2018](https://www.youtube.com/watch?v=zPzCLqkQnr0)
+- [How Moog Makes Synth Apps: Interview With Geert Bevin, Head Of Software At Moog](https://audiokitpro.com/geert-moog/) - a great interview full of insight
 
 ## Places
 
 - [musicdsp mailing list](http://sites.music.columbia.edu/cmc/music-dsp/) - The music DSP mailing list is pretty quiet these days, but it still worth signing up, despite the web 0-1 front page. Every now and again a music DSP legend posts something interesting. 
 - [KvR Audio DSP and Plug-in Development Forum](https://www.kvraudio.com/forum/viewforum.php?f=33) - This is probably the most active forum for audio DSP that is not aligned with a particular plug-in framework. There are some very smart people, some mavericks and some plain weirdos who hang out here.
-- [JUCE Forums](https://forum.juce.com/) - This is a collection of forums centred around the variety of things that JUCE does. Since there is such a huge amount of people using JUCE to make audio software, there is a lot of good info here.
+- [JUCE Forums](https://forum.juce.com/) - This is a collection of forums centred around the variety of things that JUCE does. Since there are such a huge amount of people using JUCE to make audio software, there is a lot of good info here.
 - [Cockos Forums](https://forum.cockos.com) - Another collection of forums centred around Cockos' tools including one for WDL/iPlug and one for Reaper JS.
 - [The audio developer conference (ADC)](https://juce.com/adc) - Whilst the other places mentioned here are all virtual, this is a real conference where you can go and meet real people face-to-face who do audio programming - highly recommended!
 - [TheAudioProgrammer Discord server](https://www.youtube.com/watch?v=E3KOptgChdc) - A popular community for discussing audio programming.
-- [iPlug2 Forum](https://iplug2.discourse.group/) - new forum for iPlug2 discussions
-- [Steinberg VST3 Forum](https://forums.steinberg.net/c/developer/vst-3-sdk/) - A forum for discussions about the VST3 SDK/format
+- [iPlug2 Forum](https://iplug2.discourse.group/) - forum for iPlug2 discussions
+- [Steinberg VST3 Forum](https://forums.steinberg.net/c/developer/vst-3-sdk/) - A forum for the VST3 SDK/format
 
 ___
 

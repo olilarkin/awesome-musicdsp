@@ -4,7 +4,7 @@ This is a curated list of my favourite music DSP and audio programming resources
 
 Oli Larkin
 
-## Plug-in/App Frameworks
+## Audio Plug-in/App Frameworks
 
 - [iPlug2](https://github.com/iPlug2) - Originally created by Cockos, iPlug is an awesome plug-in framework. For a long time, I was maintaining a [fork of iPlug1](https://github.com/olilarkin/wdl-ol), but over the last few years [Alex Harker](https://github.com/AlexHarker) and I have reworked it into something new, with the imaginitive name: iPlug2. It's a massive improvement on the original version, adding support for GPU accelerated vector graphics, iOS, WebViews, AUv3 and compiling to WebAudio/WASM, amongst many other things. iPlug2's syntax is super simple, for example, creating a parameter or a control in the UI is only a single line of C++ code.
 - [JUCE](https://github.com/juce-framework/JUCE) - JUCE is an undeniably awesome C++ application/plug-in framework with audio roots. It boasts a vast amount of functionality for the development of music software, including support for almost all plug-in formats and platforms. JUCE is used widely in the music technology industry and it has excellent documentation, code standards, features and support. The JUCE team organise the [Audio Developer's Conference (ADC)](https://juce.com/adc) which is one of the best conferences to attend if you like audio programming. What's more all the videos from all the ADCs so far are available [on youtube](https://www.youtube.com/channel/UCaF6fKdDrSmPDmiZcl9KLnQ/videos).

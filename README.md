@@ -30,6 +30,7 @@ Oli Larkin
 - [Spatial Audio Framework](https://github.com/leomccormack/Spatial_Audio_Framework) - Another excellent library for ambisonics and other spatial audio related processing
 - [MadronaLib](https://github.com/madronalabs/madronalib) - Randy Jones' DSP library, which is awesome because it is all designed for SIMD processing.
 - [WDL](https://github.com/justinfrankel/WDL) - WDL is Cockos' library of reusable C++ code, that is used to make the DAW Reaper, amongst other things. It includes open source implementations of many useful things such as resampling and convolution, although there is next to no documentation and the code is difficult to understand. For more info about the various parts of WDL (which can be used independently), check [the Cockos site](https://www.cockos.com/wdl/)
+- [DaisySP](https://electro-smith.github.io/DaisySP/) - A MIT licensed DSP library written for the Daisy platform, but also useable elsewhere. I like it because it includes some nice ports of Emilie Gillet's mutable instruments code.
 
 ## Domain Specific Languages (DSLs)
 
@@ -105,6 +106,7 @@ These are the software tools that I find useful in my audio programming.
 - [ELK Audio OS](https://elk.audio/dev-kit/) - A new embedded linux OS & dev kit that runs VST2 & VST3 plugins.
 - [mutable instruments](https://github.com/pichenettes/eurorack) - Emilie Gillet's work is inspirational. The code has been [ported to VCVRack](https://github.com/VCVRack/AudibleInstruments/tree/master/src) and to some nice [iOS AUv3s](https://github.com/boourns/Spectrum)
 - [pedalvite](https://github.com/EleonoreMizo/pedalevite) - An open source pedal board project from a developer who did a lot of the DSP in the best plugins of the last ~20 years.
+- [Daisy](https://www.electro-smith.com/about) - I haven't actually tried Daisy, but it looks brilliant, and I've heard good things. It has a more powerful MCU than the OWL and I really like how the same, cheap board can be plugged into different hardware. 
 
 ## Youtubers
 

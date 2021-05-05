@@ -58,6 +58,7 @@ This is a small selection of books that have been helpful to me.
 - [Michael Tyson blog](http://atastypixel.com/blog/four-common-mistakes-in-audio-development/) - In depth article about Four common mistakes in audio development
 - [Ross Bencina's blog/site](http://www.rossbencina.com/) - A developer who writes a lot of interesting software and articles about lock free programming
 - [Sound on Sound Magazine Synth Secrets](https://www.soundonsound.com/series/synth-secrets) - A nice series on synthesis techniques.
+- [Jatin Chowdhury's medium](https://jatinchowdhury18.medium.com) - This blog, along with [Jatin's github](https://github.com/jatinchowdhury18) is full of fascinating, cutting-edge stuff.
 
 ## Tools
 These are the software tools that I find useful in my audio programming.

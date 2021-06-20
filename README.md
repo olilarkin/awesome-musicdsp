@@ -80,7 +80,7 @@ These are the software tools that I find useful in my audio programming.
 
 ## Miscellaneous open source audio code/projects
 
-- [destroyfx](https://github.com/sophiapoirier/destroyfx) - A brilliant collection of open source experimental plug-ins that have been around since the dawn of VST but are getting updated by the looks of things
+- [destroyfx](https://github.com/sophiapoirier/destroyfx) - A brilliant collection of open source plug-ins that are very original have been around since the dawn of VST.
 - [puredata](http://msp.ucsd.edu/software.html) - Pd is a really nice cross platform dataflow programming environment. Also check out [libpd](https://github.com/libpd), which you can use as an embeddable DSP runtime in your C++ audio plug-in etc. [Camomille](https://github.com/pierreguillot/Camomile) combines libpd with JUCE to let you make plug-ins based on Pd patches.
 - [supercollider](https://github.com/supercollider/supercollider) - Likewise, but make sure you look at the scsynth part for DSP stuff.
 - [csound](https://github.com/csound/csound) - CSound is still going strong after many years. It can also be used as an embeddable DSP library. There is a [Web IDE](https://ide.csound.com), which is a great way to play with interesting scores/orchestras/UDOs that you find on the web and [Cabbage](https://cabbageaudio.com/) lets you make plug-ins based on CSound orchestras.

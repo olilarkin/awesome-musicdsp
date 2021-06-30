@@ -117,7 +117,7 @@ These are the software tools that I find useful in my audio programming.
 
 - [TheAudioProgrammer](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A) - includes a lot of tutorials about JUCE with guest slots on things like web audio.
 - [TheChernoProject](https://www.youtube.com/user/TheChernoProject) - although this channel is focused on game development, the [C++ series](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) is excellent. Highly recommended.
-- [Valerio Verlardo - The Sound of AI](https://www.youtube.com/channel/UCZPFjMe1uRSirmSpznqvJfQ) - Valerio has made a very impressive channel and community dedicated to AI and ML topics in Audio
+- [Valerio Verlardo - The Sound of AI](https://www.youtube.com/channel/UCZPFjMe1uRSirmSpznqvJfQ) - Valerio has made a very impressive channel and [community](https://valeriovelardo.com/the-sound-of-ai-community/) dedicated to AI and ML topics in Audio
 
 ## Interesting Talks
 

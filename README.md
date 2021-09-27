@@ -2,6 +2,8 @@
 
 This is a curated list of my favourite music DSP and audio programming resources. * It was originally meant to be an official "Awesome list", but apparently you are not meant to write in the first person, so it is now a "more awesome" list.
 
+If you like it, and would like to [buy me a Ko-fi](https://ko-fi.com/olilarkin), that would be nice :-)
+
 Oli Larkin
 
 ## Audio Plug-in/App Frameworks

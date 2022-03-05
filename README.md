@@ -32,6 +32,7 @@ Oli Larkin
 - [MadronaLib](https://github.com/madronalabs/madronalib) - Randy Jones' DSP library, which is awesome because it is all designed for SIMD processing.
 - [WDL](https://github.com/justinfrankel/WDL) - WDL is Cockos' library of reusable C++ code, that is used to make the DAW Reaper, amongst other things. It includes open source implementations of many useful things such as resampling and convolution, although there is next to no documentation and the code is difficult to understand. For more info about the various parts of WDL (which can be used independently), check [the Cockos site](https://www.cockos.com/wdl/)
 - [DaisySP](https://electro-smith.github.io/DaisySP/) - A MIT licensed DSP library written for the Daisy platform, but also useable elsewhere. I like it because it includes some nice ports of Emilie Gillet's mutable instruments code.
+- [SignalSmithDSP](https://signalsmith-audio.co.uk/code/dsp/) - A really nice looking DSP library, along with a really nice [blog/website](https://signalsmith-audio.co.uk/writing/) with a collection of nice articles, e.g. [How to write a reverb](https://signalsmith-audio.co.uk/writing/2021/lets-write-a-reverb/), see also [a video presentation](https://www.youtube.com/watch?v=QWnD30xHjW4)
 
 ## Domain Specific Languages (DSLs)
 

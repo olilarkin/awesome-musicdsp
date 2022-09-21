@@ -81,6 +81,7 @@ These are the software tools that I find useful in my audio programming.
 
 ## Miscellaneous open source audio code/projects
 
+- [choc](https://github.com/Tracktion/choc) - From the creator of JUCE comes CHOC, an ISC licensed library of Classy Header-Only Classes. Including some useful audio related utilities
 - [BespokeSynth](https://github.com/BespokeSynth/BespokeSynth) - A pretty amazing modular synth/composition environment with nice real-time visualisation, loads of modules, and lots of flexibility
 - [destroyfx](https://github.com/sophiapoirier/destroyfx) - A brilliant collection of open source plug-ins that are very original have been around since the dawn of VST.
 - [puredata](http://msp.ucsd.edu/software.html) - Pd is a really nice cross platform dataflow programming environment. Also check out [libpd](https://github.com/libpd), which you can use as an embeddable DSP runtime in your C++ audio plug-in etc. [Camomille](https://github.com/pierreguillot/Camomile) combines libpd with JUCE to let you make plug-ins based on Pd patches.

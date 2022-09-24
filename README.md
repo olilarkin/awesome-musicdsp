@@ -107,6 +107,10 @@ These are the software tools that I find useful in my audio programming.
 - [Temper](https://github.com/creativeintent/temper) - A digital distortion built using JUCE and FAUST
 - [zita stuff](http://kokkinizita.linuxaudio.org/linuxaudio/index.html) - Fons Adriaensen's linux audio projects offer a lot of great tools for acoustic measurements, spatial audio etc - mostly as jack apps.
 
+## Plug-in gui stuff
+
+- [KnobMan, WebKnobMan](https://www.g200kg.com/en/webknobman/gallery.php) - "Safe for work" knob pics and an online tool to generate them.
+
 ## Hardware/embedded
 
 - [the owl pedal/module](https://hoxtonowl.com/) - This is a programmable stomp box and eurorack module that I've been working with since the kick starter campaign to launch it. It's a really nice little unit, which you can program in C++, FAUST, Pd or with Max gen~. I find the limited interface with 4 controls makes me think quite carefully about what's important about my DSP algorithm. You can find some patches I made for it (using a mixture of c++ and FAUST) in the [user library](https://www.rebeltech.org/patch-library/patches/authors), and the original code [here](https://github.com/olilarkin/OL-OWLPatches).

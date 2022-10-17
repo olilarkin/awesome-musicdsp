@@ -107,6 +107,10 @@ These are the software tools that I find useful in my audio programming.
 - [Temper](https://github.com/creativeintent/temper) - A digital distortion built using JUCE and FAUST
 - [zita stuff](http://kokkinizita.linuxaudio.org/linuxaudio/index.html) - Fons Adriaensen's linux audio projects offer a lot of great tools for acoustic measurements, spatial audio etc - mostly as jack apps.
 
+## Machine Learning / MIR
+- [GuitarML](https://github.com/GuitarML) - Very cool project building open source guitar fx/amp simulations using machine learning techniques.
+- [NeuralAmpModeler](https://github.com/sdatkinson/neural-amp-modeler) - A similar project, which is also very cool!
+
 ## Plug-in gui stuff
 
 - [KnobMan, WebKnobMan](https://www.g200kg.com/en/webknobman/gallery.php) - "Safe for work" knob pics and an online tool to generate them.

@@ -81,6 +81,7 @@ These are the software tools that I find useful in my audio programming.
 
 ## Miscellaneous open source audio code/projects
 
+- [ni-media](https://github.com/NativeInstruments/ni-media) - A very nice audio file loading library from Native Instruments
 - [choc](https://github.com/Tracktion/choc) - From the creator of JUCE comes CHOC, an ISC licensed library of Classy Header-Only Classes. Including some useful audio related utilities
 - [BespokeSynth](https://github.com/BespokeSynth/BespokeSynth) - A pretty amazing modular synth/composition environment with nice real-time visualisation, loads of modules, and lots of flexibility
 - [destroyfx](https://github.com/sophiapoirier/destroyfx) - A brilliant collection of open source plug-ins that are very original have been around since the dawn of VST.

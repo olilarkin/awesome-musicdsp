@@ -107,6 +107,7 @@ These are the software tools that I find useful in my audio programming.
 - [AirWindows Plugins](https://github.com/airwindows/airwindows) - A large collection of GUI-less plug-ins open source but supported via patreon [see airwindows site](http://www.airwindows.com/)
 - [Temper](https://github.com/creativeintent/temper) - A digital distortion built using JUCE and FAUST
 - [zita stuff](http://kokkinizita.linuxaudio.org/linuxaudio/index.html) - Fons Adriaensen's linux audio projects offer a lot of great tools for acoustic measurements, spatial audio etc - mostly as jack apps.
+- [matchering](https://github.com/sergree/matchering) - A python library and dockerized web app for automated reference audio mastering.
 
 ## Machine Learning / MIR
 - [GuitarML](https://github.com/GuitarML) - Very cool project building open source guitar fx/amp simulations using machine learning techniques.

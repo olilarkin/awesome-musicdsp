@@ -62,6 +62,7 @@ This is a small selection of books that have been helpful to me.
 - [Sound on Sound Magazine Synth Secrets](https://www.soundonsound.com/series/synth-secrets) - A nice series on synthesis techniques.
 - [Jatin Chowdhury @ medium](https://jatinchowdhury18.medium.com) - This blog, along with [Jatin's github](https://github.com/jatinchowdhury18) is full of fascinating, cutting-edge stuff.
 - [RS-MET tutorials](http://www.rs-met.com/tutorials.html) - Some nice pdfs with clear explanations of audio DSP topics.
+- [Melatonin Blog](https://melatonin.dev/blog/) - Sudara is writing some really excellent articles on some of the painful tasks involved in audio plug-in development and also publishing lots of useful open source recipes on [his github](https://github.com/sudara)
 
 ## Tools
 These are the software tools that I find useful in my audio programming.

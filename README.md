@@ -63,7 +63,7 @@ This is a small selection of books that have been helpful to me.
 - [Jatin Chowdhury @ medium](https://jatinchowdhury18.medium.com) - This blog, along with [Jatin's github](https://github.com/jatinchowdhury18) is full of fascinating, cutting-edge stuff.
 - [RS-MET tutorials](http://www.rs-met.com/tutorials.html) - Some nice pdfs with clear explanations of audio DSP topics.
 - [Melatonin Blog](https://melatonin.dev/blog/) - Sudara is writing some really excellent articles on some of the painful tasks involved in audio plug-in development and also publishing lots of useful open source recipes on [his github](https://github.com/sudara)
-- [Katjass Home](https://www.katjaas.nl/home/home.html) - a very cool site with writings about various DSP topics and examples in pd/c
+- [Katja's Home](https://www.katjaas.nl/home/home.html) - a very cool site with writings about various DSP topics and examples in pd/c
 
 ## Tools
 These are the software tools that I find useful in my audio programming.
@@ -101,18 +101,18 @@ These are the software tools that I find useful in my audio programming.
 
 ## Open source instruments/effects
 
-- [surge](https://github.com/surge-synthesizer/surge) - Surge was an excellent product which has been open sourced and is now being mainted and improved by the surge-synth team.
+- [surge](https://github.com/surge-synthesizer/surge) - Surge was an excellent product which has been open sourced and is now being maintained and improved by the surge-synth team.
 - [vital](https://github.com/mtytel/vital) - Vital is a very succesful wavetable synth with a slick interface done using the GPU.
 - [obxd](https://github.com/2DaT/Obxd) - OBxd  is a great sounding oberheim emulation, written with JUCE. [DiscoDSP have updated it](https://github.com/reales/OB-Xd), and it has also been [ported to work on the web as a WebAudioModule](http://www.webaudiomodules.org/wamsynths/obxd)
 - [dexed](https://github.com/asb2m10/dexed) - Dexed is a JUCE frontend to [Raph Levien's "Music Synthesier For Android"](https://github.com/google/music-synthesizer-for-android), which is an excellent DX7 emulation. Also [ported to work on the web as a WebAudioModule](http://www.webaudiomodules.org/wamsynths/dexed)
 - [AudioKit SynthOne](https://github.com/AudioKit/AudioKitSynthOne) - SynthOne is a great open source project built using Audiokit,  that will be very interesting to anyone looking to build an iOS synthesiser.
 - [AirWindows Plugins](https://github.com/airwindows/airwindows) - A large collection of GUI-less plug-ins open source but supported via patreon [see airwindows site](http://www.airwindows.com/)
-- [Temper](https://github.com/creativeintent/temper) - A digital distortion built using JUCE and FAUST
 - [zita stuff](http://kokkinizita.linuxaudio.org/linuxaudio/index.html) - Fons Adriaensen's linux audio projects offer a lot of great tools for acoustic measurements, spatial audio etc - mostly as jack apps.
 
 ## Machine Learning / MIR
 - [GuitarML](https://github.com/GuitarML) - Very cool project building open source guitar fx/amp simulations using machine learning techniques.
 - [NeuralAmpModeler](https://github.com/sdatkinson/neural-amp-modeler) - A similar project, which is also very cool - plug-in built with iPlug2!
+- [ONNXRuntime](https://github.com/olilarkin/iPlug2OnnxRuntime) - Microsoft's ONNX Runtime is a ML inference engine that is well documented, has a good build system and can produce small binaries, suitable for Audio Plugins. Here is an iPlug2 example that I prepared.
 
 ## Plug-in gui stuff
 

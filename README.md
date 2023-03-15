@@ -14,6 +14,16 @@ Oli Larkin
 - [Jamba](https://jamba.dev/) - A new framework built on top of the VST3SDK & VSTGUI, with some useful extra widgets and good CMake support
 - [DPlug](https://dplug.org/) - A plug-in framework using the D programming language, that has had a huge amount of work over many years. I haven't tried it, but I've decided to include it here in solidarity with the authors. As a fellow open-source framework developer, it's nice if people know about your work.
 
+
+## Exemplary open-source plug-in instruments/effects and templates
+This is a new section for plug-in projects that are great examples for plug-in dev in the year 2023, where the authors are using modern practices such as CI/CD, unit-testing and have nice build scripts, and are making their projects easy for others to compile straight away!
+
+- [pamplejuce](https://github.com/sudara/pamplejuce) - An excellent template for JUCE projects.
+- [iPlug2OOS](https://github.com/iPlug2/iPlug2OOS) - Continuing the theme of self-promotion, here is the latest and greatest iPlug2 template project, set up with CI/CD, installer scripts, github workspaces etc.
+- [surge](https://github.com/surge-synthesizer/surge) - Surge was an excellent product which has been open sourced and is now being maintained and continually improved by the surge-synth team, with a new JUCE UI.
+- [valentine](https://github.com/Tote-Bag-Labs/valentine) - An awesome compressor and great, complete project example for a cross platform audio plug-in in 2023.
+- [vital](https://github.com/mtytel/vital) - Vital is a very succesful wavetable synth with a slick interface done using the GPU. Amazing that a project like this can be open source!
+
 ## UI Frameworks
 
 - [VSTGUI](https://github.com/steinbergmedia/vstgui) - VSTGUI is Steinberg's cross-platform UI framework for audio plug-ins. It is released under a BSD licence, it's an impressive piece of work and many plug-in developers use it for their products.
@@ -49,7 +59,7 @@ Oli Larkin
 - [Vadim Zavalishin - The Art of VA Filter Design](https://www.native-instruments.com/fileadmin/ni_media/downloads/pdf/VAFilterDesign_2.1.0.pdf) - Very math-heavy text on those modern approachs
 
 ## Reading
-This is a small selection of books that have been helpful to me.
+This is a small selection of websites, books and articles that have been helpful to me.
 
 - [Will Pirkle](http://www.willpirkle.com/) - Will Pirkle has written two books that will be invaluable the aspiring audio plug-in developer - "Designing Audio Effect Plug-Ins in C++" and "Designing Software Synthesizer Plug-Ins in C++". The books contain detailed information about important audio DSP, including modern virtual analogue techniques, and sample code for complete sythesizers that sound good. My only criticism is that a large part of the books relates to a bespoke plugin framework and providing information for multiple formats, AU, VST3 can be a bit overwhelming, and clutters the content. Nevertheless I highly recommend these books. For more info [see here](http://www.willpirkle.com/about/books)
 - [Dodge and Jerse - Computer Music: Synthesis, Composition and Performance, 2nd Edition](https://books.google.co.uk/books/about/Computer_Music.html?id=eY_BQgAACAAJ&redir_esc=y) - This is my absolute favourite book to recommend to students studying computer music/audio synthesis. I find the book does not date like some other computer music texts. The block diagrams are charming and the techniques are discussed very well.
@@ -93,21 +103,14 @@ These are the software tools that I find useful in my audio programming.
 - [vcvrack](https://github.com/VCVRack/Rack) - Whilst the other items in this list have been around a while and have somewhat arcane code-bases, this is pretty new and the API is very clean and simple. I think making a VCVRack module it is a great way to get into audio programming.
 - [tracktion engine](https://github.com/Tracktion/tracktion_engine) - Source code for an entire DAW engine, using modern C++. An amazing resource for learning all sorts of things including how to structure and architect large audio projects. GPL/Commercial license.
 - [musicdsp.org](https://www.musicdsp.org) - "A collection of algorithms, thoughts and snippets, gathered for the music dsp community". A long serving site that has recently been revamped. Beware: most of the code there was written a very long time ago, and optimization tricks etc, may not be relevant on modern machines. Also there are lots of code snippets programming languages other than C++ (delphi, java, C#  etc). Could do with some curation.
-
-- [Webkit's Web Audio API](https://github.com/WebKit/WebKit/tree/main/Source/WebCore/Modules/webaudio) - This is the C++ code for WebKit's implementation of the Web Audio API, as used in Safari.
-- [Blink's Web Audio API](https://chromium.googlesource.com/chromium/blink/+/master/Source/modules/webaudio/) - The same thing in Blink (Google chromium).
-- [Firefox's Web Audio API](https://searchfox.org/mozilla-central/source/dom/media/webaudio/) - And for Mozilla Firefox.
-
-
-## Open source instruments/effects
-
-- [surge](https://github.com/surge-synthesizer/surge) - Surge was an excellent product which has been open sourced and is now being maintained and improved by the surge-synth team.
-- [vital](https://github.com/mtytel/vital) - Vital is a very succesful wavetable synth with a slick interface done using the GPU.
-- [obxd](https://github.com/2DaT/Obxd) - OBxd  is a great sounding oberheim emulation, written with JUCE. [DiscoDSP have updated it](https://github.com/reales/OB-Xd), and it has also been [ported to work on the web as a WebAudioModule](http://www.webaudiomodules.org/wamsynths/obxd)
+- [obxd](https://github.com/2DaT/Obxd) - OBxd  is a great sounding oberheim emulation plug-in, written with JUCE. [DiscoDSP have updated it](https://github.com/reales/OB-Xd), and it has also been [ported to work on the web as a WebAudioModule](http://www.webaudiomodules.org/wamsynths/obxd)
 - [dexed](https://github.com/asb2m10/dexed) - Dexed is a JUCE frontend to [Raph Levien's "Music Synthesier For Android"](https://github.com/google/music-synthesizer-for-android), which is an excellent DX7 emulation. Also [ported to work on the web as a WebAudioModule](http://www.webaudiomodules.org/wamsynths/dexed)
 - [AudioKit SynthOne](https://github.com/AudioKit/AudioKitSynthOne) - SynthOne is a great open source project built using Audiokit,  that will be very interesting to anyone looking to build an iOS synthesiser.
 - [AirWindows Plugins](https://github.com/airwindows/airwindows) - A large collection of GUI-less plug-ins open source but supported via patreon [see airwindows site](http://www.airwindows.com/)
 - [zita stuff](http://kokkinizita.linuxaudio.org/linuxaudio/index.html) - Fons Adriaensen's linux audio projects offer a lot of great tools for acoustic measurements, spatial audio etc - mostly as jack apps.
+- [Webkit's Web Audio API](https://github.com/WebKit/WebKit/tree/main/Source/WebCore/Modules/webaudio) - This is the C++ code for WebKit's implementation of the Web Audio API, as used in Safari.
+- [Blink's Web Audio API](https://chromium.googlesource.com/chromium/blink/+/master/Source/modules/webaudio/) - The same thing in Blink (Google chromium).
+- [Firefox's Web Audio API](https://searchfox.org/mozilla-central/source/dom/media/webaudio/) - And for Mozilla Firefox.
 
 ## Machine Learning / MIR
 - [GuitarML](https://github.com/GuitarML) - Very cool project building open source guitar fx/amp simulations using machine learning techniques.

@@ -90,6 +90,8 @@ These are the software tools that I find useful in my audio programming.
 - [dspplot](https://github.com/kfrlib/dspplot) - A python script that I find useful for plotting filter responses
 - [Docker desktop](https://www.docker.com/products/docker-desktop) - Docker is incredibly useful for creating reproducible environments, e.g. with specific python libraries installed.
 - [Audio Programming Environment - APE](http://www.jthorborg.com/) - An audio plug-in that embeds a C++ JIT compiler which you can use to test your C++ DSP without leaving the DAW.
+- [Fig](https://fig.io/) - Very useful macOS CLI enhancer
+- [OhMyZSH](https://ohmyz.sh/) - Make macOS terminal/iTerm2 nice and colorful
 
 ## Miscellaneous open source audio code/projects
 

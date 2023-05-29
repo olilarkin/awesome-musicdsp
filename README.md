@@ -44,6 +44,11 @@ This is a new section for plug-in projects that are great examples for plug-in d
 - [DaisySP](https://electro-smith.github.io/DaisySP/) - A MIT licensed DSP library written for the Daisy platform, but also useable elsewhere. I like it because it includes some nice ports of Emilie Gillet's mutable instruments code.
 - [SignalSmithDSP](https://signalsmith-audio.co.uk/code/dsp/) - A really nice looking DSP library, along with a really nice [blog/website](https://signalsmith-audio.co.uk/writing/) with a collection of nice articles, e.g. [How to write a reverb](https://signalsmith-audio.co.uk/writing/2021/lets-write-a-reverb/), see also [a video presentation](https://www.youtube.com/watch?v=QWnD30xHjW4)
 
+## Music Information Retrieval Libraries (C++)
+
+- [essentia](https://github.com/MTG/essentia) - Essentia is a huge collection of MIR algorithms that you can use to extract high and low level features from audio. AGPL3 license. Somewhat painful to build cross-platform.
+- [audioflux](https://github.com/libAudioFlux/audioFlux) - AudioFlux is a new-kid-on the block and some what similar but looks designed for deep learning, it looks very promising and has a liberal (MIT) license.
+
 ## Domain Specific Languages (DSLs)
 
 - [FAUST](https://github.com/grame-cncm/faust) - FAUST is a powerful functional DSL for audio DSP with many options for quickly compiling to different “architectures” including audio plug-ins and embedded devices. FAUST is not interpreted like programming languages such as Puredata/Max/Supercollider/javascript, it is ["transpiled"](https://stackoverflow.com/questions/44931479/compiling-vs-transpiling) to C++ and various other programming languages or bytecode formats such as Web Assembly (WASM). This functionality is suited to rapid prototyping but can also produce robust and performant binaries. Whilst the rapid prototyping possibilities of FAUST are appealing to me, what I like most about it is the extensive library of high quality DSP, particularly for physical modelling synthesis and the way in which you can compose algorithms using the concise syntax. FAUST includes a JIT compiler "libfaust" based on LLVM, which I [integrated into a JUCE module](https://github.com/olilarkin/juce_faustllvm). I've also [integrated FAUST support into iPlug2](https://github.com/iPlug2/iPlug2/tree/master/Examples/IPlugFaustDSP) and used it to make a [physical model of the Indian Tambura](https://github.com/olilarkin/tambura).
@@ -159,8 +164,8 @@ These are the software tools that I find useful in my audio programming.
 
 ___
 
-Oli Larkin 2018-2022
-www.olilarkin.co.uk
+Oli Larkin 2018-2023
+https://www.olilarkin.co.uk
 
 ## License
 

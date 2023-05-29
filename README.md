@@ -44,7 +44,7 @@ This is a new section for plug-in projects that are great examples for plug-in d
 - [DaisySP](https://electro-smith.github.io/DaisySP/) - A MIT licensed DSP library written for the Daisy platform, but also useable elsewhere. I like it because it includes some nice ports of Emilie Gillet's mutable instruments code.
 - [SignalSmithDSP](https://signalsmith-audio.co.uk/code/dsp/) - A really nice looking DSP library, along with a really nice [blog/website](https://signalsmith-audio.co.uk/writing/) with a collection of nice articles, e.g. [How to write a reverb](https://signalsmith-audio.co.uk/writing/2021/lets-write-a-reverb/), see also [a video presentation](https://www.youtube.com/watch?v=QWnD30xHjW4)
 
-## Music Information Retrieval Libraries (C++)
+## Music Information Retrieval Libraries (C/C++)
 
 - [essentia](https://github.com/MTG/essentia) - Essentia is a huge collection of MIR algorithms that you can use to extract high and low level features from audio. AGPL3 license. Somewhat painful to build cross-platform.
 - [audioflux](https://github.com/libAudioFlux/audioFlux) - AudioFlux is a new-kid-on the block and some what similar but looks designed for deep learning, it looks very promising and has a liberal (MIT) license.
@@ -119,7 +119,7 @@ These are the software tools that I find useful in my audio programming.
 - [Blink's Web Audio API](https://chromium.googlesource.com/chromium/blink/+/master/Source/modules/webaudio/) - The same thing in Blink (Google chromium).
 - [Firefox's Web Audio API](https://searchfox.org/mozilla-central/source/dom/media/webaudio/) - And for Mozilla Firefox.
 
-## Machine Learning / MIR
+## Machine Learning
 - [GuitarML](https://github.com/GuitarML) - Very cool project building open source guitar fx/amp simulations using machine learning techniques.
 - [NeuralAmpModeler](https://github.com/sdatkinson/neural-amp-modeler) - A similar project, which is also very cool - plug-in built with iPlug2!
 - [ONNXRuntime](https://github.com/olilarkin/iPlug2OnnxRuntime) - Microsoft's ONNX Runtime is a ML inference engine that is well documented, has a good build system and can produce small binaries, suitable for Audio Plugins. Here is an iPlug2 example that I prepared.

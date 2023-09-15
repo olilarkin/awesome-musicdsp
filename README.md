@@ -162,6 +162,10 @@ These are the software tools that I find useful in my audio programming.
 - [iPlug2 Forum](https://iplug2.discourse.group/) - forum for iPlug2 discussions
 - [Steinberg VST3 Forum](https://forums.steinberg.net/c/developer/vst-3-sdk/) - A forum for the VST3 SDK/format
 
+## Related lists
+
+* [Awesome Audio DSP](https://github.com/BillyDM/awesome-audio-dsp) - A curated list of audio DSP and plugin development resources.
+
 ___
 
 Oli Larkin 2018-2023

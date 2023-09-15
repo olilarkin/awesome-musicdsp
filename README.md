@@ -13,7 +13,7 @@ Oli Larkin
 - [DPF](https://github.com/DISTRHO/DPF) - Distrho Plug-in Framework is a nice C++ plug-in framework by falkTX, supporting lots of Linux formats.
 - [Jamba](https://jamba.dev/) - A new framework built on top of the VST3SDK & VSTGUI, with some useful extra widgets and good CMake support
 - [DPlug](https://dplug.org/) - A plug-in framework using the D programming language, that has had a huge amount of work over many years. I haven't tried it, but I've decided to include it here in solidarity with the authors. As a fellow open-source framework developer, it's nice if people know about your work.
-- [nih-plug](https://github.com/robbert-vdh/nih-plug) - Modular plugin-in framework using the Rust programming language. It has several different options for GUI. It's still somewhat experimental and is missing some more specialized features, but it's usable.
+- [NIH-plug](https://github.com/robbert-vdh/nih-plug) - Modular plugin-in framework using the Rust programming language. It has several different options for GUI. It's still somewhat experimental and is missing some more specialized features, but it's usable.
 
 ## Exemplary open-source plug-in instruments/effects and templates
 This is a new section for plug-in projects that are great examples for plug-in dev in the year 2023, where the authors are using modern practices such as CI/CD, unit-testing and have nice build scripts, and are making their projects easy for others to compile straight away!

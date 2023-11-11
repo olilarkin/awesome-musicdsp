@@ -138,8 +138,9 @@ These are the software tools that I find useful in my audio programming.
 - [pedalvite](https://github.com/EleonoreMizo/pedalevite) - An open source pedal board project from a developer who did a lot of the DSP in the best plugins of the last ~20 years.
 - [Daisy](https://www.electro-smith.com/about) - I haven't actually tried Daisy, but it looks brilliant, and I've heard good things. It has a more powerful MCU than the OWL and I really like how the same, cheap board can be plugged into different hardware. 
 
-## Youtubers
+## Youtubers/Podcasters
 
+- [Jan Wilczek - The WolfSound](https://thewolfsound.com/) - Jan is an extremely driven, friendly and talented guy who has put a lot of work into making a great set of resources for people who want to learn audio programming. His content is a mixture of very good technical overviews of important topics and great interviews with people across the industry and involved in academia. I was honoured to be interviewed by Jan for episode 15 of the wolfsound podcast, which you can listen to [here](https://www.youtube.com/watch?v=MxOryjYAHlY).
 - [TheAudioProgrammer](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A) - includes a lot of tutorials about JUCE with guest slots on things like web audio.
 - [TheChernoProject](https://www.youtube.com/user/TheChernoProject) - although this channel is focused on game development, the [C++ series](https://www.youtube.com/watch?v=18c3MTX0PK0&list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb) is excellent. Highly recommended.
 - [Valerio Verlardo - The Sound of AI](https://www.youtube.com/channel/UCZPFjMe1uRSirmSpznqvJfQ) - Valerio has made a very impressive channel and [community](https://valeriovelardo.com/the-sound-of-ai-community/) dedicated to AI and ML topics in Audio

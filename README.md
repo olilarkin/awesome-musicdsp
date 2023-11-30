@@ -83,6 +83,7 @@ This is a small selection of websites, books and articles that have been helpful
 ## Tools
 These are the software tools that I find useful in my audio programming.
 
+- [ChatGPT+ Subscription](https://chat.openai.com/) - ChatGPT has become invaluable to me, allowing me to experiment and be creative with things that would have taken much more work before
 - [VSCode & Github Codespaces](https://code.visualstudio.com/) - VSCode is a brilliant text editor that has lots of interesting extensions and functionality. Lately I am using VSCode remote containers and Github Codespaces [see video](https://www.patreon.com/posts/audio-plug-in-44267675) which I think is a game-changing technology.
 - [Cycling '74 Max](https://cycling74.com/) - Max is a great environment to use for prototyping audio plug-ins. There are just so many options for integrating different technologies, I highly recommend it - even if nowadays most of the max patches I make only include a few objects.
 - [Desmos](https://www.desmos.com) - This is an awesome online graphing calculator. Check out some interactive Casio CZ waveforms that I made [saw](https://www.desmos.com/calculator/te4bzpvav3) [square](https://www.desmos.com/calculator/mclynvox0h) [reso1](https://www.desmos.com/calculator/6659cif7oa)

@@ -124,6 +124,7 @@ These are the software tools that I find useful in my audio programming.
 - [NeuralAmpModeler](https://github.com/sdatkinson/neural-amp-modeler) - A similar project, which is also very cool - plug-in built with iPlug2!
 - [ONNXRuntime](https://github.com/microsoft/onnxruntime) - Microsoft's ONNX Runtime is a ML inference engine that is well documented, performant, and customizable. [Here](https://github.com/olilarkin/iPlug2OnnxRuntime) is an iPlug2 example that I prepared that integrates onnxruntime into an audio plugin, using [ort-builder](https://github.com/olilarkin/ort-builder) - another project that I made in order to build custom, slimmed down static libraries for the onnxruntime
 - [RTNeural](https://github.com/jatinchowdhury18/RTNeural) - A library designed for realtime inference of Neural Network models with audio in mind. Very small when compared to linking a library like OnnxRuntime or libtensorflow.
+- [Torsion Audio's Neural Network Inference Template for Real-Time Cricital Audio Environments](https://github.com/Torsion-Audio/nn-inference-template) - A great JUCE template for a machine learning based plug-in, set up for libTorch, TFLite, or OnnxRuntime, including code to help you offload inference onto a separate thread.
 
 ## Plug-in gui stuff
 

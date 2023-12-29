@@ -13,6 +13,7 @@ Oli Larkin
 - [DPF](https://github.com/DISTRHO/DPF) - Distrho Plug-in Framework is a nice C++ plug-in framework by falkTX, supporting lots of Linux formats.
 - [Jamba](https://jamba.dev/) - A new framework built on top of the VST3SDK & VSTGUI, with some useful extra widgets and good CMake support
 - [DPlug](https://dplug.org/) - A plug-in framework using the D programming language, that has had a huge amount of work over many years. I haven't tried it, but I've decided to include it here in solidarity with the authors. As a fellow open-source framework developer, it's nice if people know about your work.
+- [Steinberg VST3 SDK](https://github.com/steinbergmedia/vst3sdk) - The Steinberg VST3 SDK has been around for a long time, but recent versions start to add a lot of great features such as really good CMake support, Lots of documentation, and [a nice template project](https://github.com/steinbergmedia/vst3_example_plugin_hello_world). Since Steinberg include wrappers for VST2, AUv2, AUv3 and AAX it is somewhat like a plug-in framework.
 
 
 ## Exemplary open-source plug-in instruments/effects and templates

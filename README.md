@@ -15,15 +15,13 @@ Oli Larkin
 - [DPlug](https://dplug.org/) - A plug-in framework using the D programming language, that has had a huge amount of work over many years. I haven't tried it, but I've decided to include it here in solidarity with the authors. As a fellow open-source framework developer, it's nice if people know about your work.
 - [Steinberg VST3 SDK](https://github.com/steinbergmedia/vst3sdk) - The Steinberg VST3 SDK has been around for a long time, but recent versions start to add a lot of great features such as really good CMake support, Lots of documentation, and [a nice template project](https://github.com/steinbergmedia/vst3_example_plugin_hello_world). Since Steinberg include wrappers for VST2, AUv2, AUv3 and AAX it is somewhat like a plug-in framework.
 
+## Audio plug-in templates
+If you want to create a robust cross-platform audio plug-in, there is a lot more involved than just programming your DSP and creating a user interface. There are many extra things to set up such as installers, testing, building in the cloud using github actions etc. Although these things are less fun than audio programming they will make your life much easier in the long term, but it becomes very tedious to set them up manually again and again. If you want to just be creative with a new project, it's smart to have a good template to start with, which is pre-configured to build and test your code in the cloud in a reproducible way. Here are some templates that people have made that you might want to use or look at if you are creating your own:
 
-## Exemplary open-source plug-in instruments/effects and templates
-This is a new section for plug-in projects that are great examples for plug-in dev in the year 2023, where the authors are using modern practices such as CI/CD, unit-testing and have nice build scripts, and are making their projects easy for others to compile straight away!
-
-- [pamplejuce](https://github.com/sudara/pamplejuce) - An excellent template for JUCE projects.
 - [iPlug2OOS](https://github.com/iPlug2/iPlug2OOS) - Continuing the theme of self-promotion, here is the latest and greatest iPlug2 template project, set up with CI/CD, installer scripts, github workspaces etc.
-- [surge](https://github.com/surge-synthesizer/surge) - Surge was an excellent product which has been open sourced and is now being maintained and continually improved by the surge-synth team, with a new JUCE UI.
-- [valentine](https://github.com/Tote-Bag-Labs/valentine) - An awesome compressor and great, complete project example for a cross platform audio plug-in in 2023.
-- [vital](https://github.com/mtytel/vital) - Vital is a very succesful wavetable synth with a slick interface done using the GPU. Amazing that a project like this can be open source!
+- [pamplejuce](https://github.com/sudara/pamplejuce) - An excellent template for JUCE projects.
+- [wolfsound - audio-plugin-template](https://github.com/JanWilczek/audio-plugin-template) - Jan Wilczek has made another excellent JUCE template
+- [JUCECmakeRepoPrototype](https://github.com/eyalamirmusic/JUCECmakeRepoPrototype) - Eyal Amir also has one which looks good!
 
 ## UI Frameworks
 
@@ -99,6 +97,12 @@ These are the software tools that I find useful in my audio programming.
 - [Audio Programming Environment - APE](http://www.jthorborg.com/) - An audio plug-in that embeds a C++ JIT compiler which you can use to test your C++ DSP without leaving the DAW.
 - [Fig](https://fig.io/) - Very useful macOS CLI enhancer
 - [OhMyZSH](https://ohmyz.sh/) - Make macOS terminal/iTerm2 nice and colorful
+
+## Exemplary open source audio plug-in projects
+
+- [surge](https://github.com/surge-synthesizer/surge) - Surge was an excellent product which has been open sourced and is now being maintained and continually improved by the surge-synth team, with a new JUCE UI.
+- [valentine](https://github.com/Tote-Bag-Labs/valentine) - An awesome compressor and great, complete project example for a cross platform audio plug-in in 2023.
+- [vital](https://github.com/mtytel/vital) - Vital is a very succesful wavetable synth with a slick interface done using the GPU. Amazing that a project like this can be open source!
 
 ## Miscellaneous open source audio code/projects
 

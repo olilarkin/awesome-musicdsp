@@ -143,7 +143,7 @@ These are the software tools that I find useful in my audio programming.
 - [ELK Audio OS](https://elk.audio/dev-kit/) - A new embedded linux OS & dev kit that runs VST2 & VST3 plugins.
 - [mutable instruments](https://github.com/pichenettes/eurorack) - Emilie Gillet's work is inspirational. The code has been [ported to VCVRack](https://github.com/VCVRack/AudibleInstruments/tree/master/src) and to some nice [iOS AUv3s](https://github.com/boourns/Spectrum)
 - [pedalvite](https://github.com/EleonoreMizo/pedalevite) - An open source pedal board project from a developer who did a lot of the DSP in the best plugins of the last ~20 years.
-- [Daisy](https://www.electro-smith.com/about) - I haven't actually tried Daisy, but it looks brilliant, and I've heard good things. It has a more powerful MCU than the OWL and I really like how the same, cheap board can be plugged into different hardware. 
+- [Daisy](https://www.electro-smith.com/about) - Daisy is a brilliant programmable embedded music platform. A few different host devices are available into which you plug the ["daisy seed"](https://electro-smith.com/products/daisy-seed) Of course you can also build your own device around the Daisy seed board if you don't suck at electronics, like me. It has a more powerful MCU than the OWL and I really like how the same board can be plugged into different hardware depending on your needs. 
 
 ## Youtubers/Podcasters
 

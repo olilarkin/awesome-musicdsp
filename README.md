@@ -22,6 +22,7 @@ If you want to create a robust cross-platform audio plug-in, there is a lot more
 - [pamplejuce](https://github.com/sudara/pamplejuce) - An excellent template for JUCE projects.
 - [wolfsound - audio-plugin-template](https://github.com/JanWilczek/audio-plugin-template) - Jan Wilczek has made another excellent JUCE template
 - [JUCECmakeRepoPrototype](https://github.com/eyalamirmusic/JUCECmakeRepoPrototype) - Eyal Amir also has one which looks good!
+- [Brad Howes AUv3 Template](https://github.com/bradhowes/AUv3Template) - A template for iOS/macOS AUv3 projects
 
 ## UI Frameworks
 

@@ -75,7 +75,7 @@ This is a small selection of websites, books and articles that have been helpful
 - [EarLevel Engineering](http://www.earlevel.com/) - Nigel Redmond's DSP blog contains some very nicely written explanations of a variety of topics.
 - [Michael Tyson blog](http://atastypixel.com/blog/four-common-mistakes-in-audio-development/) - In depth article about Four common mistakes in audio development
 - [Ross Bencina's blog/site](http://www.rossbencina.com/) - A developer who writes a lot of interesting software and articles about lock free programming
-- [Sound on Sound Magazine Synth Secrets](https://www.soundonsound.com/series/synth-secrets) - A nice series on synthesis techniques.
+- [Sound on Sound Magazine Synth Secrets](https://www.soundonsound.com/series/synth-secrets-sound-sound) - A nice series on synthesis techniques.
 - [Jatin Chowdhury @ medium](https://jatinchowdhury18.medium.com) - This blog, along with [Jatin's github](https://github.com/jatinchowdhury18) is full of fascinating, cutting-edge stuff.
 - [RS-MET tutorials](http://www.rs-met.com/tutorials.html) - Some nice pdfs with clear explanations of audio DSP topics.
 - [Melatonin Blog](https://melatonin.dev/blog/) - Sudara is writing some really excellent articles on some of the painful tasks involved in audio plug-in development and also publishing lots of useful open source recipes on [his github](https://github.com/sudara)

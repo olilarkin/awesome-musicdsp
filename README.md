@@ -80,6 +80,7 @@ This is a small selection of websites, books and articles that have been helpful
 - [RS-MET tutorials](http://www.rs-met.com/tutorials.html) - Some nice pdfs with clear explanations of audio DSP topics.
 - [Melatonin Blog](https://melatonin.dev/blog/) - Sudara is writing some really excellent articles on some of the painful tasks involved in audio plug-in development and also publishing lots of useful open source recipes on [his github](https://github.com/sudara)
 - [Katja's Home](https://www.katjaas.nl/home/home.html) - a very cool site with writings about various DSP topics and examples in pd/c
+- [https://audiodev.blog](https://audiodev.blog) - Matthijs Holleman's blog with some great technical articles and deep dives into resurrecting long lost VST's many of which I used when they first came out!
 
 ## Tools
 These are the software tools that I find useful in my audio programming.
@@ -175,7 +176,7 @@ These are the software tools that I find useful in my audio programming.
 
 ___
 
-Oli Larkin 2018-2024
+Oli Larkin 2018-2025
 https://www.olilarkin.co.uk
 
 ## License

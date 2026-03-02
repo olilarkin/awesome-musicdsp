@@ -4,6 +4,11 @@ This is a curated list of my favourite music DSP and audio programming resources
 
 Oli Larkin
 
+## New - Agentic AI coding tools for audio programmers
+
+- [Audio Plug-in Dev Skills](https://github.com/iPlug3/audio-plugin-dev-skills) - Claude Code marketplace for audio plugin development skills.
+- More coming soon (see my [iPlug3 manifesto](https://github.com/iPlug3))
+
 ## Audio Plug-in/App Frameworks
 
 - [iPlug2](https://github.com/iPlug2) - Originally created by Cockos, iPlug is an awesome plug-in framework. For a long time, I was maintaining a [fork of iPlug1](https://github.com/olilarkin/wdl-ol), but over the last few years [Alex Harker](https://github.com/AlexHarker) and I have reworked it into something new, with the imaginitive name: iPlug2. It's a massive improvement on the original version, adding support for GPU accelerated vector graphics, resizable high DPI UIs, iOS, WebViews, AUv3 and compiling to WebAudio/WASM, amongst many other things. iPlug2's syntax is super simple, for example, creating a parameter or a control in the UI is only a single line of C++ code.
@@ -85,7 +90,7 @@ This is a small selection of websites, books and articles that have been helpful
 ## Tools
 These are the software tools that I find useful in my audio programming.
 
-- [ChatGPT+ Subscription](https://chat.openai.com/) - ChatGPT has become invaluable to me, allowing me to experiment and be creative with things that would have taken much more work before
+- Agentic coding: [Claude code](https://code.claude.com/docs/en/overview) / [Gemini cli](https://geminicli.com/) / [Codex](https://openai.com/codex/) - It's 2026 and it's the year of Agentic AI. I like using these tools on the command line, have you heard, i'm building [iPlug3](https://github.com/iPlug3) with agentic coding in mind.
 - [VSCode & Github Codespaces](https://code.visualstudio.com/) - VSCode is a brilliant text editor that has lots of interesting extensions and functionality. Lately I am using VSCode remote containers and Github Codespaces [see video](https://www.patreon.com/posts/audio-plug-in-44267675) which I think is a game-changing technology.
 - [Cycling '74 Max](https://cycling74.com/) - Max is a great environment to use for prototyping audio plug-ins. There are just so many options for integrating different technologies, I highly recommend it - even if nowadays most of the max patches I make only include a few objects.
 - [Desmos](https://www.desmos.com) - This is an awesome online graphing calculator. Check out some interactive Casio CZ waveforms that I made [saw](https://www.desmos.com/calculator/te4bzpvav3) [square](https://www.desmos.com/calculator/mclynvox0h) [reso1](https://www.desmos.com/calculator/6659cif7oa)
@@ -176,8 +181,8 @@ These are the software tools that I find useful in my audio programming.
 
 ___
 
-Oli Larkin 2018-2025
-https://www.olilarkin.co.uk
+Oli Larkin 2018-2026
+https://www.olilarkin.com
 
 ## License
 

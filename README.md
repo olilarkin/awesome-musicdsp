@@ -110,6 +110,7 @@ These are the software tools that I find useful in my audio programming.
 - [surge](https://github.com/surge-synthesizer/surge) - Surge was an excellent product which has been open sourced and is now being maintained and continually improved by the surge-synth team, with a new JUCE UI.
 - [valentine](https://github.com/Tote-Bag-Labs/valentine) - An awesome compressor and great, complete project example for a cross platform audio plug-in in 2023.
 - [vital](https://github.com/mtytel/vital) - Vital is a very succesful wavetable synth with a slick interface done using the GPU. Amazing that a project like this can be open source!
+- [FreeEQ8](https://github.com/GareBear99/FreeEQ8) - A free, GPL-3 JUCE-based 8-band parametric EQ with linear phase (overlap-add FFT convolution), per-band dynamic EQ, match EQ, M/S processing, and 1×–8× oversampling. The repo ships a Milestone-A RT-safety pass: pooled oversamplers with zero heap allocation on the audio thread, a swap-chain triple-buffered spectrum FIFO and FIR kernel handoff, and a standalone test suite that proves the invariants under concurrent stress. A useful reference for realistic real-time-safe plug-in architecture.
 
 ## Miscellaneous open source audio code/projects
 

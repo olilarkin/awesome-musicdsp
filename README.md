@@ -187,3 +187,4 @@ https://www.olilarkin.com
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+- [KeyboardTester.click Pitch Detector](https://keyboardtester.click/pitch-detector.php) - Browser-based pitch detector built on Web Audio API + autocorrelation; live mic input, Hz/note/cents readout. Open source: https://github.com/nasirazizawan009/keyboardtester-click

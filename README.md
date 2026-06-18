@@ -132,6 +132,7 @@ These are the software tools that I find useful in my audio programming.
 - [Webkit's Web Audio API](https://github.com/WebKit/WebKit/tree/main/Source/WebCore/Modules/webaudio) - This is the C++ code for WebKit's implementation of the Web Audio API, as used in Safari.
 - [Blink's Web Audio API](https://chromium.googlesource.com/chromium/blink/+/master/Source/modules/webaudio) - The same thing in Blink (Google chromium).
 - [Firefox's Web Audio API](https://searchfox.org/mozilla-central/source/dom/media/webaudio/) - And for Mozilla Firefox.
+- [Tonalux Audio Analyzer](https://tonalux.org/analyzer.html) - open source (MIT) in-browser audio analyzer; readable JS/WASM DSP for LUFS (EBU R128/ITU-R BS.1770), True Peak, BPM, key. [Source](https://github.com/Exenye/tonalux-analyzer).
 
 ## Machine Learning
 - [GuitarML](https://github.com/GuitarML) - Very cool project building open source guitar fx/amp simulations using machine learning techniques.

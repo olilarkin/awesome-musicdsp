@@ -8,6 +8,7 @@ Oli Larkin
 
 - [Audio Plug-in Dev Skills](https://github.com/iPlug3/audio-plugin-dev-skills) - Claude Code marketplace for audio plugin development skills.
 - More coming soon (see my [iPlug3 manifesto](https://github.com/iPlug3))
+- [Tonalux Audio Analyzer](https://tonalux.org/analyzer.html) - open source (MIT) in-browser audio analyzer; readable JS/WASM DSP for LUFS (EBU R128/ITU-R BS.1770), True Peak, BPM, key. [Source](https://github.com/Exenye/tonalux-analyzer).
 
 ## Audio Plug-in/App Frameworks
 

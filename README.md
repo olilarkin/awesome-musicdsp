@@ -8,6 +8,7 @@ Oli Larkin
 
 - [Audio Plug-in Dev Skills](https://github.com/iPlug3/audio-plugin-dev-skills) - Claude Code marketplace for audio plugin development skills.
 - More coming soon (see my [iPlug3 manifesto](https://github.com/iPlug3))
+- [FM-1 Emulator](https://fm1-emulator.atst.tools/) - Free browser emulator for the M-VAVE FM-1 pocket synth; plays stock and 200+ community firmwares.
 
 ## Audio Plug-in/App Frameworks
 

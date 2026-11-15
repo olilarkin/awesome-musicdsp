@@ -7,6 +7,7 @@ Oli Larkin
 ## New - Agentic AI coding tools for audio programmers
 
 - [Audio Plug-in Dev Skills](https://github.com/iPlug3/audio-plugin-dev-skills) - Claude Code marketplace for audio plugin development skills.
+- [No Stairs Please MCP](https://nostairsplease.com/mcp) - Remote MCP server for [No Stairs Please](https://nostairsplease.com/), a directory of small live-music venues and booking contacts across all 50 US states, DC, and BC.
 - More coming soon (see my [iPlug3 manifesto](https://github.com/iPlug3))
 
 ## Audio Plug-in/App Frameworks
